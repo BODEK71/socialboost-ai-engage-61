@@ -6,9 +6,9 @@ import {
   NavigationMenu,
   NavigationMenuContent,
   NavigationMenuItem,
-  NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
+  NavigationMenuLink,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import { Button } from "./ui/button";
@@ -24,10 +24,8 @@ const Navbar = () => {
         <NavigationMenu className="hidden md:flex">
           <NavigationMenuList>
             <NavigationMenuItem>
-              <Link to="/" legacyBehavior passHref>
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  Główna
-                </NavigationMenuLink>
+              <Link to="/" className={navigationMenuTriggerStyle()}>
+                Główna
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
@@ -62,17 +60,13 @@ const Navbar = () => {
               </NavigationMenuContent>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link to="/cennik" legacyBehavior passHref>
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  Cennik
-                </NavigationMenuLink>
+              <Link to="/cennik" className={navigationMenuTriggerStyle()}>
+                Cennik
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link to="/kontakt" legacyBehavior passHref>
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  Kontakt
-                </NavigationMenuLink>
+              <Link to="/kontakt" className={navigationMenuTriggerStyle()}>
+                Kontakt
               </Link>
             </NavigationMenuItem>
           </NavigationMenuList>
