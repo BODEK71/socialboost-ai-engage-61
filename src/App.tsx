@@ -8,6 +8,8 @@ import Index from "./pages/Index";
 import XTwitter from "./pages/XTwitter";
 import YouTube from "./pages/YouTube";
 import Web3 from "./pages/Web3";
+import FAQ from "./pages/FAQ";
+import Blog from "./pages/Blog";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -23,6 +25,8 @@ const App = () => (
           <Route path="/x-twitter" element={<XTwitter />} />
           <Route path="/youtube" element={<YouTube />} />
           <Route path="/web3" element={<Web3 />} />
+          <Route path="/faq" element={<FAQ />} />
+          <Route path="/blog" element={<Blog />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

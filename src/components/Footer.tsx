@@ -1,6 +1,7 @@
 
 import React from "react";
 import Logo from "./Logo";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -20,30 +21,30 @@ const Footer = () => {
             <div>
               <h3 className="text-lg font-bold mb-4">Platformy</h3>
               <ul className="space-y-2">
-                <li><a href="#" className="text-white/70 hover:text-white">X (Twitter)</a></li>
-                <li><a href="#" className="text-white/70 hover:text-white">YouTube</a></li>
-                <li><a href="#" className="text-white/70 hover:text-white">Platformy Web3</a></li>
-                <li><a href="#" className="text-white/70 hover:text-white">Instagram (wkrótce)</a></li>
+                <li><Link to="/x-twitter" className="text-white/70 hover:text-white">X (Twitter)</Link></li>
+                <li><Link to="/youtube" className="text-white/70 hover:text-white">YouTube</Link></li>
+                <li><Link to="/web3" className="text-white/70 hover:text-white">Platformy Web3</Link></li>
+                <li><span className="text-white/70">Instagram (wkrótce)</span></li>
               </ul>
             </div>
             
             <div>
               <h3 className="text-lg font-bold mb-4">Firma</h3>
               <ul className="space-y-2">
-                <li><a href="#" className="text-white/70 hover:text-white">O nas</a></li>
-                <li><a href="#" className="text-white/70 hover:text-white">Cennik</a></li>
-                <li><a href="#" className="text-white/70 hover:text-white">Kontakt</a></li>
-                <li><a href="#" className="text-white/70 hover:text-white">FAQ</a></li>
+                <li><Link to="/" className="text-white/70 hover:text-white">O nas</Link></li>
+                <li><Link to="/cennik" className="text-white/70 hover:text-white">Cennik</Link></li>
+                <li><Link to="/kontakt" className="text-white/70 hover:text-white">Kontakt</Link></li>
+                <li><Link to="/faq" className="text-white/70 hover:text-white">FAQ</Link></li>
               </ul>
             </div>
             
             <div>
               <h3 className="text-lg font-bold mb-4">Wsparcie</h3>
               <ul className="space-y-2">
-                <li><a href="#" className="text-white/70 hover:text-white">Centrum pomocy</a></li>
-                <li><a href="#" className="text-white/70 hover:text-white">Blog</a></li>
-                <li><a href="#" className="text-white/70 hover:text-white">Polityka prywatności</a></li>
-                <li><a href="#" className="text-white/70 hover:text-white">Warunki usługi</a></li>
+                <li><Link to="/kontakt" className="text-white/70 hover:text-white">Centrum pomocy</Link></li>
+                <li><Link to="/blog" className="text-white/70 hover:text-white">Blog</Link></li>
+                <li><Link to="/polityka-prywatnosci" className="text-white/70 hover:text-white">Polityka prywatności</Link></li>
+                <li><Link to="/warunki-uzytkowania" className="text-white/70 hover:text-white">Warunki usługi</Link></li>
               </ul>
             </div>
           </div>

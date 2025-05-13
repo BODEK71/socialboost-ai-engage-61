@@ -60,8 +60,13 @@ const Navbar = () => {
               </NavigationMenuContent>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link to="/cennik" className={navigationMenuTriggerStyle()}>
-                Cennik
+              <Link to="/blog" className={navigationMenuTriggerStyle()}>
+                Blog
+              </Link>
+            </NavigationMenuItem>
+            <NavigationMenuItem>
+              <Link to="/faq" className={navigationMenuTriggerStyle()}>
+                FAQ
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
