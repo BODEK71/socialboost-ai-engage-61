@@ -1,5 +1,6 @@
 
 declare module 'react-i18next' {
+  import { ReactNode } from 'react';
   import { i18n as I18nInterface } from 'i18next';
 
   export interface UseTranslationResponse {
@@ -10,6 +11,12 @@ declare module 'react-i18next' {
 
   export function useTranslation(ns?: string | string[], options?: any): UseTranslationResponse;
   export const initReactI18next: any;
+  export interface I18nextProviderProps {
+    i18n: I18nInterface;
+    children: ReactNode;
+  }
+  export function I18nextProvider(props: I18nextProviderProps): JSX.Element;
+  export type ReactI18NextChildren = ReactNode;
 }
 
 declare module 'i18next' {
@@ -31,7 +38,7 @@ declare module 'i18next' {
   }
 
   interface i18n {
-    t: (key: string, options?: any) => string;
+    t: (key: string, options?: any) => any;
     changeLanguage: (lng: string) => Promise<any>;
     language: string;
     use: (module: any) => i18n;
