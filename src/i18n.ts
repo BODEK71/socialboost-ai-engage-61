@@ -19,9 +19,10 @@ import indexPl from "./locales/pl/index.json";
 import faqPl from "./locales/pl/faq.json";
 import blogPl from "./locales/pl/blog.json";
 
+// Initialize i18n instance before exporting
 i18n
-  .use(LanguageDetector)
   .use(initReactI18next)
+  .use(LanguageDetector)
   .init({
     resources: {
       en: {
