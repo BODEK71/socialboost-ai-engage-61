@@ -1,0 +1,28 @@
+
+{
+  "description": "SocialBoost - Ihr Vorteil in der digitalen Welt. Fortschrittliche Plattform zur Steigerung von Reichweite und Sichtbarkeit in sozialen Medien.",
+  "sections": {
+    "platforms": {
+      "title": "Plattformen",
+      "xTwitter": "X (Twitter)",
+      "youtube": "YouTube",
+      "web3": "Web3 Plattformen",
+      "instagram": "Instagram (demnächst)"
+    },
+    "company": {
+      "title": "Unternehmen",
+      "about": "Über uns",
+      "pricing": "Preisgestaltung",
+      "contact": "Kontakt",
+      "faq": "FAQ"
+    },
+    "support": {
+      "title": "Support",
+      "helpCenter": "Hilfezentrum",
+      "blog": "Blog",
+      "privacyPolicy": "Datenschutzrichtlinie",
+      "termsOfService": "Nutzungsbedingungen"
+    }
+  },
+  "copyright": "© {year} SocialBoost. Alle Rechte vorbehalten."
+}

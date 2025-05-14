@@ -1,0 +1,127 @@
+
+{
+  "hero": {
+    "title": "SocialBoost - Social Media Automatisierungsrevolution",
+    "features": [
+      "100% Reichweitenwachstum",
+      "Maximale Effektivität",
+      "Komplette Sicherheit"
+    ],
+    "description": "Willkommen in der Zukunft der sozialen Medien. SocialBoost ist eine bahnbrechende Plattform, die Ihnen eine leistungsstarke Armee von Premium-Konten bietet, die Ihre Inhalte strategisch stärken. Erhöhen Sie Ihre Reichweite, verbessern Sie die Sichtbarkeit und dominieren Sie Plattform-Algorithmen - alles mit garantierten spektakulären Ergebnissen.",
+    "cta": {
+      "primary": "Jetzt starten",
+      "secondary": "Demo buchen"
+    }
+  },
+  "features": {
+    "title": "Unsere unterstützten Plattformen",
+    "description": "Warum entscheiden sich Marken und Kreative für SocialBoost? Nutzen Sie unser Netzwerk von über 3.000 Premium-Konten mit authentischer Historie seit 2009.",
+    "platforms": {
+      "xTwitter": {
+        "title": "X (Twitter)",
+        "points": [
+          "3000+ aktive Konten mit 12-jähriger Historie",
+          "Engagement, das von menschlichem nicht zu unterscheiden ist",
+          "Einzigartige IPs und digitale Fingerabdrücke",
+          "0% Ban-Garantie"
+        ]
+      },
+      "youtube": {
+        "title": "YouTube",
+        "points": [
+          "3000+ aktive Konten mit Wiedergabeverlauf",
+          "90-100% Video-Abschlussrate",
+          "Algorithmus-freundliches Engagement",
+          "Fehlerfreie Betriebsgeschichte"
+        ]
+      },
+      "web3": {
+        "title": "Web3 Plattformen",
+        "points": [
+          "1000+ Wallets mit authentischen Verläufen",
+          "150+ Konten mit web3ID auf deBank",
+          "Blogging und Content-Erstellung auf mirror.xyz",
+          "Höchstes Sicherheitsniveau"
+        ]
+      },
+      "instagram": {
+        "title": "Instagram",
+        "comingSoon": "Q3 2025",
+        "points": [
+          "Langfristige, vertrauenswürdige Konten",
+          "Natürlicher Engagement-Verlauf",
+          "Story-Ansichten und -Interaktionen",
+          "Volle Sicherheit und Unterstützung"
+        ]
+      }
+    }
+  },
+  "pricing": {
+    "title": "Transparente Preisgestaltung - Wählen Sie einen Plan für Ihre Bedürfnisse",
+    "description": "Finden Sie das richtige Paket für Ihre Bedürfnisse und beginnen Sie, die Reichweite Ihrer Inhalte zu erhöhen.",
+    "plans": {
+      "starter": {
+        "title": "Starter",
+        "price": "249 €",
+        "features": [
+          "Zugang zu 500 Premium-Konten",
+          "2 Plattformen Ihrer Wahl",
+          "50 tägliche Interaktionen",
+          "Basis-Analysepanel",
+          "E-Mail-Support"
+        ]
+      },
+      "growthPro": {
+        "title": "Growth Pro",
+        "price": "599 €",
+        "popular": "Beliebteste",
+        "features": [
+          "Zugang zu 1500 Premium-Konten",
+          "Alle Plattformen inbegriffen",
+          "200 tägliche Interaktionen",
+          "Erweiterte Analysen und Berichte",
+          "Prioritäts-Support und Strategie-Sitzungen"
+        ]
+      },
+      "enterprise": {
+        "title": "Enterprise",
+        "price": "1199 €",
+        "features": [
+          "Vollständiger Zugriff auf alle 3000+ Konten",
+          "Unbegrenzte Plattformintegration",
+          "500+ tägliche Interaktionen",
+          "Vollständiger Zugriff auf KOL-Marktanalyse",
+          "Dediziertes 24/7 Support-Team"
+        ]
+      }
+    }
+  },
+  "benefits": {
+    "title": "Was SocialBoost wirklich auszeichnet?",
+    "description": "Unsere fortschrittliche Technologie und unser einzigartiger Ansatz liefern Ergebnisse, die Sie nirgendwo anders erzielen werden.",
+    "items": [
+      {
+        "title": "Nicht erkennbare Premium-Konten",
+        "description": "Unsere Konten sind zu 100% authentisch, zwischen 2009-2022 erstellt, mit echten Browserverlauf und Glaubwürdigkeit."
+      },
+      {
+        "title": "KI, die menschliches Engagement schafft",
+        "description": "Unsere KI erstellt organisch nicht unterscheidbare Interaktionen, die sich im Laufe der Zeit natürlich entwickeln, mit einzigartigen Stilen für jedes Konto."
+      },
+      {
+        "title": "Exklusive Marktanalyse",
+        "description": "Gewinnen Sie Einblick in Trends durch die Überwachung von über 600 Key Opinion Leaders mit frühen Indikatoren für neue Möglichkeiten."
+      },
+      {
+        "title": "Vollständige Automatisierung",
+        "description": "Einstellen und vergessen mit unserem vollautomatischen Engagement-Management- und strategischen Planungssystem."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bereit für die Dominanz in sozialen Medien?",
+    "description": "Kontaktieren Sie uns noch heute und erfahren Sie, wie SocialBoost Ihre digitale Präsenz transformieren kann. Vereinbaren Sie eine Vorführung und sehen Sie, warum wir führend in fortschrittlicher Social-Media-Automatisierung sind.",
+    "primary": "Demo buchen",
+    "secondary": "Kontaktieren Sie uns"
+  }
+}
