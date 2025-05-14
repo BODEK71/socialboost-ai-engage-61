@@ -10,6 +10,35 @@ import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { ChevronLeft } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 
+// Article images mapping
+const articleImages = {
+  "increasing-reach": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80",
+  "algorithm-changes": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80",
+  "content-strategy": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80"
+};
+
+// Section images mapping (for each article section)
+const sectionImages = {
+  "increasing-reach": [
+    "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80",
+    "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&q=80",
+    "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80",
+    "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80"
+  ],
+  "algorithm-changes": [
+    "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80",
+    "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80",
+    "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80",
+    "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&q=80"
+  ],
+  "content-strategy": [
+    "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80",
+    "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80",
+    "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80",
+    "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80"
+  ]
+};
+
 const BlogArticle = () => {
   const { articleId } = useParams<{ articleId: string }>();
   const { t } = useTranslation("blog");
@@ -39,6 +68,9 @@ const BlogArticle = () => {
     );
   }
 
+  // Get the section images for this article
+  const articleSectionImages = sectionImages[articleId as keyof typeof sectionImages] || [];
+
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
@@ -50,31 +82,49 @@ const BlogArticle = () => {
         </Link>
         
         <Card className="overflow-hidden">
-          <div className="p-6 md:p-8">
-            <h1 className="text-3xl md:text-4xl font-bold mb-3">{article.title}</h1>
-            <p className="text-sm text-muted-foreground mb-6">
-              {article.date} | {article.author}
-            </p>
-            
-            <div className="aspect-w-16 aspect-h-9 bg-secondary/30 mb-8">
+          <div className="p-0">
+            <div className="aspect-w-16 aspect-h-9">
               <AspectRatio ratio={16/9}>
-                <div className="w-full h-full bg-secondary/30 flex items-center justify-center text-muted-foreground">
-                  [Article featured image]
-                </div>
+                <img 
+                  src={articleImages[articleId as keyof typeof articleImages]} 
+                  alt={article.title}
+                  className="w-full h-full object-cover"
+                />
               </AspectRatio>
             </div>
             
-            <div className="prose prose-lg max-w-none">
-              {/* Render article content sections */}
-              {article.content.map((section: any, index: number) => (
-                <React.Fragment key={index}>
-                  <h2 className="text-2xl font-bold mt-8 mb-4">{section.subtitle}</h2>
-                  <div style={{ whiteSpace: 'pre-line' }} className="text-muted-foreground">
-                    {section.content}
-                  </div>
-                  {index < article.content.length - 1 && <Separator className="my-6" />}
-                </React.Fragment>
-              ))}
+            <div className="p-6 md:p-8">
+              <h1 className="text-3xl md:text-4xl font-bold mb-3">{article.title}</h1>
+              <p className="text-sm text-muted-foreground mb-6">
+                {article.date} | {article.author}
+              </p>
+              
+              <div className="prose prose-lg max-w-none">
+                {/* Render article content sections with images */}
+                {article.content.map((section: any, index: number) => (
+                  <React.Fragment key={index}>
+                    <h2 className="text-2xl font-bold mt-8 mb-4">{section.subtitle}</h2>
+                    
+                    {/* Show section image for every section except the first one (which has the main image) */}
+                    {index > 0 && articleSectionImages[index - 1] && (
+                      <div className="mb-6">
+                        <AspectRatio ratio={16/9}>
+                          <img 
+                            src={articleSectionImages[index - 1]} 
+                            alt={section.subtitle}
+                            className="w-full h-full object-cover rounded-md"
+                          />
+                        </AspectRatio>
+                      </div>
+                    )}
+                    
+                    <div style={{ whiteSpace: 'pre-line' }} className="text-muted-foreground">
+                      {section.content}
+                    </div>
+                    {index < article.content.length - 1 && <Separator className="my-6" />}
+                  </React.Fragment>
+                ))}
+              </div>
             </div>
           </div>
         </Card>
@@ -88,6 +138,15 @@ const BlogArticle = () => {
               .map((relatedArticle) => (
                 <Card key={relatedArticle.id} className="overflow-hidden">
                   <div className="p-4">
+                    <div className="mb-3">
+                      <AspectRatio ratio={16/9}>
+                        <img 
+                          src={articleImages[relatedArticle.id as keyof typeof articleImages]} 
+                          alt={relatedArticle.title}
+                          className="w-full h-full object-cover rounded-md"
+                        />
+                      </AspectRatio>
+                    </div>
                     <h4 className="font-bold mb-2">
                       <Link
                         to={`/blog/${relatedArticle.id}`}

@@ -11,6 +11,13 @@ import { useTranslation } from "react-i18next";
 import { Input } from "@/components/ui/input";
 import { Separator } from "@/components/ui/separator";
 
+// Article images mapping
+const articleImages = {
+  "increasing-reach": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80",
+  "algorithm-changes": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80",
+  "content-strategy": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80"
+};
+
 // Sample blog article component
 const BlogArticlePreview = ({ 
   title, 
@@ -28,11 +35,13 @@ const BlogArticlePreview = ({
   return (
     <Card className="mb-8 overflow-hidden">
       <div className="p-0">
-        <div className="aspect-w-3 aspect-h-1 bg-secondary/30">
+        <div className="aspect-w-3 aspect-h-1">
           <AspectRatio ratio={3/1}>
-            <div className="w-full h-full bg-secondary/30 flex items-center justify-center text-muted-foreground">
-              [Article image]
-            </div>
+            <img 
+              src={articleImages[id as keyof typeof articleImages]} 
+              alt={title}
+              className="w-full h-full object-cover"
+            />
           </AspectRatio>
         </div>
         <div className="p-6">
@@ -45,7 +54,6 @@ const BlogArticlePreview = ({
           <p className="text-muted-foreground mb-4">{excerpt}</p>
           <Link to={`/blog/${id}`}>
             <Button variant="link" className="p-0 h-auto font-medium text-brand-blue hover:text-brand-blue/80">
-              {/* Using t function for "Read more" text */}
               <span className="flex items-center">
                 Read more <ArrowRight className="ml-2 h-4 w-4" />
               </span>
