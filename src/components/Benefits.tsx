@@ -16,7 +16,7 @@ const BenefitCard = ({
 }: BenefitCardProps) => {
   return (
     <div className="flex flex-col items-start">
-      <div className="rounded-lg bg-brand-purple p-3 text-white mb-4">
+      <div className="rounded-lg bg-brand-purple-light p-3 text-white mb-4">
         {icon}
       </div>
       <h3 className="text-xl font-bold mb-2">{title}</h3>
