@@ -7,8 +7,9 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
-import { Separator } from "@/components/ui/separator";
 import { useTranslation } from "react-i18next";
+import { Input } from "@/components/ui/input";
+import { Separator } from "@/components/ui/separator";
 
 // Sample blog article component
 const BlogArticlePreview = ({ 
@@ -36,15 +37,18 @@ const BlogArticlePreview = ({
         </div>
         <div className="p-6">
           <h3 className="text-2xl font-bold mb-2">
-            <Link to={`/blog/${id}`} className="hover:text-brand-purple transition-colors">
+            <Link to={`/blog/${id}`} className="hover:text-brand-blue transition-colors">
               {title}
             </Link>
           </h3>
           <p className="text-sm text-muted-foreground mb-4">{date} | {author}</p>
           <p className="text-muted-foreground mb-4">{excerpt}</p>
           <Link to={`/blog/${id}`}>
-            <Button variant="link" className="p-0 h-auto font-medium text-brand-purple hover:text-brand-purple/80">
-              Read more <ArrowRight className="ml-2 h-4 w-4" />
+            <Button variant="link" className="p-0 h-auto font-medium text-brand-blue hover:text-brand-blue/80">
+              {/* Using t function for "Read more" text */}
+              <span className="flex items-center">
+                Read more <ArrowRight className="ml-2 h-4 w-4" />
+              </span>
             </Button>
           </Link>
         </div>
@@ -53,53 +57,9 @@ const BlogArticlePreview = ({
   );
 };
 
-const BlogArticle = ({ 
-  title, 
-  date, 
-  author, 
-  content,
-  id
-}: { 
-  title: string; 
-  date: string; 
-  author: string; 
-  content: React.ReactNode;
-  id: string;
-}) => {
-  return (
-    <Card className="mb-8 overflow-hidden" id={id}>
-      <div className="p-6">
-        <h2 className="text-3xl font-bold mb-2">{title}</h2>
-        <p className="text-sm text-muted-foreground mb-6">{date} | {author}</p>
-        <div className="aspect-w-3 aspect-h-1 bg-secondary/30 mb-6">
-          <AspectRatio ratio={16/9}>
-            <div className="w-full h-full bg-secondary/30 flex items-center justify-center text-muted-foreground">
-              Show Image
-            </div>
-          </AspectRatio>
-        </div>
-        <div className="prose prose-lg max-w-none">
-          {content}
-        </div>
-      </div>
-    </Card>
-  );
-};
-
 const Blog = () => {
   const { t } = useTranslation("blog");
-
-  // Content for the first blog article
-  const firstArticleContent = (
-    <>
-      {t("firstArticle.sections", { returnObjects: true }).map((section, index) => (
-        <React.Fragment key={index}>
-          <h3>{section.subtitle}</h3>
-          <p style={{ whiteSpace: 'pre-line' }}>{section.content}</p>
-        </React.Fragment>
-      ))}
-    </>
-  );
+  const articles = t("articles", { returnObjects: true });
 
   return (
     <div className="min-h-screen bg-white">
@@ -115,17 +75,10 @@ const Blog = () => {
 
         <h2 className="text-2xl font-bold mb-6">{t("latestArticles")}</h2>
         
-        <BlogArticle
-          id="article-1"
-          title={t("firstArticle.title")}
-          date={t("firstArticle.date")}
-          author={t("firstArticle.author")}
-          content={firstArticleContent}
-        />
-        
-        {t("articles", { returnObjects: true }).slice(1, 3).map((article, index) => (
+        {/* Render all articles */}
+        {articles.map((article: any, index: number) => (
           <BlogArticlePreview
-            key={index}
+            key={article.id}
             id={article.id}
             title={article.title}
             date={article.date}
@@ -134,19 +87,16 @@ const Blog = () => {
           />
         ))}
         
-        <div className="text-center mt-12 mb-16">
-          <Button className="bg-brand-purple hover:bg-brand-purple/90">
-            {t("viewAllArticles")}
-          </Button>
-        </div>
-        
-        <div className="bg-secondary/20 p-8 rounded-xl text-center">
+        <div className="bg-secondary/20 p-8 rounded-xl text-center mt-12">
           <h3 className="text-2xl font-bold mb-3">{t("newsletter.title")}</h3>
           <p className="text-muted-foreground mb-6">
             {t("newsletter.description")}
           </p>
-          <div className="max-w-md mx-auto">
-            [Subscription form]
+          <div className="max-w-md mx-auto flex gap-2">
+            <Input placeholder="Your email address" className="bg-white" />
+            <Button className="bg-brand-blue hover:bg-brand-blue/90">
+              Subscribe
+            </Button>
           </div>
         </div>
         
@@ -154,9 +104,9 @@ const Blog = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">{t("popularCategories.title")}</h3>
             <ul className="space-y-2">
-              {t("popularCategories.categories", { returnObjects: true }).map((category, index) => (
+              {t("popularCategories.categories", { returnObjects: true }).map((category: string, index: number) => (
                 <li key={index}>
-                  <Link to={`/blog/category/${index}`} className="text-brand-purple hover:underline">{category}</Link>
+                  <Link to={`/blog/category/${index}`} className="text-brand-blue hover:underline">{category}</Link>
                 </li>
               ))}
             </ul>
@@ -165,9 +115,9 @@ const Blog = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Popular articles</h3>
             <ul className="space-y-2">
-              {t("articles", { returnObjects: true }).slice(0, 3).map((article, index) => (
-                <li key={index}>
-                  <Link to={`/blog/${article.id}`} className="text-brand-purple hover:underline">{article.title}</Link>
+              {articles.slice(0, 3).map((article: any) => (
+                <li key={article.id}>
+                  <Link to={`/blog/${article.id}`} className="text-brand-blue hover:underline">{article.title}</Link>
                 </li>
               ))}
             </ul>
