@@ -1,0 +1,91 @@
+
+{
+  "heroTitle": "X (Twitter) - Dominieren Sie Algorithmen und erhöhen Sie Ihre Reichweite",
+  "heroSubtitle": "Steigern Sie sofort die Reichweite und das Engagement auf der X-Plattform",
+  "heroButton": "Jetzt loslegen",
+  "heroCard": {
+    "title": "X (Twitter)",
+    "description": "Unser fortschrittlicher Automatisierungsdienst auf der X-Plattform (früher Twitter) wurde entwickelt, um Ihrer Marke oder Ihrem Projekt ein spektakuläres Wachstum in Sichtbarkeit und Engagement zu ermöglichen.",
+    "highlight": "Wir präsentieren stolz unsere Community von über 3000 aktiven Premium-Konten, die Ihre Inhalte strategisch verstärken."
+  },
+  "featuresSection": {
+    "title": "Warum ist unsere X-Lösung einzigartig?",
+    "features": [
+      {
+        "title": "Sofortige Reichweitensteigerung",
+        "description": "Ihre Beiträge erreichen vom ersten Tag an, an dem Sie unsere Dienste nutzen, ein viel breiteres Publikum."
+      },
+      {
+        "title": "Natürlich wirkende Interaktionen",
+        "description": "Jedes Konto hat seinen eigenen Schreibstil, Vokabularpräferenzen und individuelle Aktivitätsmuster, was authentisches und glaubwürdiges Engagement schafft."
+      },
+      {
+        "title": "Über 12 Jahre authentische Geschichte",
+        "description": "Unsere Konten haben eine reiche Geschichte, die bis ins Jahr 2009 zurückreicht, was ihre Glaubwürdigkeit in den Augen der Algorithmen stärkt."
+      },
+      {
+        "title": "Einzigartige IP und digitaler Fingerabdruck",
+        "description": "Jedes Konto arbeitet mit einer eigenen IP-Adresse und einem einzigartigen digitalen Fingerabdruck, was vollständige Sicherheit gewährleistet."
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "Wie funktioniert es?",
+    "description": "Unser X-System erkennt Ihre Beiträge automatisch und interagiert strategisch mit ihnen, indem es unsere Premium-Konten nutzt. Jede Interaktion ist sorgfältig darauf ausgerichtet, natürliches menschliches Verhalten nachzuahmen - von der Tippgeschwindigkeit bis zur Engagement-Zeit.",
+    "resultsTitle": "Beispielergebnisse für unsere Kunden:",
+    "results": [
+      "300% Steigerung der organischen Reichweite in den ersten 30 Tagen",
+      "150-200% Steigerung der Follower monatlich",
+      "Signifikante Steigerung der Engagement-Rate durch natürliche Interaktionen",
+      "Verbesserte Sichtbarkeit in Suchmaschinen und höhere Positionierung in Trends"
+    ],
+    "monitoringTitle": "Überwachung und Analyse",
+    "monitoringDescription": "Erhalten Sie detaillierte Wachstums- und Engagement-Analysen sowie Leistungsberichte, die auf Ihre Ziele zugeschnitten sind."
+  },
+  "pricing": {
+    "title": "Wählen Sie einen Plan, der zu Ihren Bedürfnissen passt:",
+    "subtitle": "Alle Pläne beinhalten vollen Zugang zu unserer X (Twitter) Plattform mit unterschiedlichen Levels an Support und Engagement.",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "price": "999",
+        "period": "pro Monat",
+        "features": [
+          "Zugang zu 500 Premium-Konten",
+          "50 tägliche Interaktionen",
+          "Grundlegende Analytik"
+        ],
+        "button": "Plan wählen"
+      },
+      "growthPro": {
+        "name": "Growth Pro",
+        "badge": "Beliebteste",
+        "price": "2499",
+        "period": "pro Monat",
+        "features": [
+          "Zugang zu 1500 Premium-Konten",
+          "200 tägliche Interaktionen",
+          "Erweiterte Analytik"
+        ],
+        "button": "Plan wählen"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "4999",
+        "period": "pro Monat",
+        "features": [
+          "Voller Zugang zu 3000+ Konten",
+          "500+ tägliche Interaktionen",
+          "Dedizierter 24/7 Support"
+        ],
+        "button": "Plan wählen"
+      }
+    }
+  },
+  "cta": {
+    "title": "Bereit, X zu dominieren und der Konkurrenz voraus zu sein?",
+    "subtitle": "Kontaktieren Sie uns noch heute und sehen Sie, wie wir Ihnen helfen können, Ihre digitale Sichtbarkeit zu erhöhen!",
+    "primaryButton": "Jetzt loslegen",
+    "secondaryButton": "Kontaktieren Sie uns"
+  }
+}

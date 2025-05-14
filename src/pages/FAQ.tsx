@@ -24,7 +24,7 @@ const FAQ = () => {
 
         {t("sections", { returnObjects: true }).map((section, sectionIndex) => (
           <Card className="p-6 mb-8" key={sectionIndex}>
-            <h2 className="text-2xl font-bold mb-6 text-brand-purple">{section.title}</h2>
+            <h2 className="text-2xl font-bold mb-6 text-brand-blue">{section.title}</h2>
             
             <div className="space-y-6">
               {section.questions.map((item, questionIndex) => (

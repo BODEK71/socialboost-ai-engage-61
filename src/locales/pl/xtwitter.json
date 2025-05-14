@@ -1,0 +1,91 @@
+
+{
+  "heroTitle": "X (Twitter) - Zdominuj algorytmy i zwiększ swój zasięg",
+  "heroSubtitle": "Natychmiastowo zwiększ zasięg i zaangażowanie na platformie X",
+  "heroButton": "Zacznij teraz",
+  "heroCard": {
+    "title": "X (Twitter)",
+    "description": "Nasza zaawansowana usługa automatyzacji na platformie X (dawniej Twitter) została stworzona, aby zapewnić Twojej marce lub projektowi spektakularny wzrost widoczności i zaangażowania.",
+    "highlight": "Z dumą przedstawiamy naszą społeczność ponad 3000 aktywnych kont premium, które strategicznie wzmacniają Twoje treści."
+  },
+  "featuresSection": {
+    "title": "Dlaczego nasze rozwiązanie X jest wyjątkowe?",
+    "features": [
+      {
+        "title": "Natychmiastowy wzrost zasięgu",
+        "description": "Twoje posty docierają do znacznie szerszego grona odbiorców od pierwszego dnia korzystania z naszych usług."
+      },
+      {
+        "title": "Naturalne interakcje",
+        "description": "Każde konto ma własny styl pisania, preferencje słownictwa i indywidualne wzorce aktywności, tworząc autentyczne i wiarygodne zaangażowanie."
+      },
+      {
+        "title": "Ponad 12 lat autentycznej historii",
+        "description": "Nasze konta mają bogatą historię sięgającą 2009 roku, co buduje ich wiarygodność w oczach algorytmów."
+      },
+      {
+        "title": "Unikalny IP i cyfrowy odcisk palca",
+        "description": "Każde konto działa z dedykowanym adresem IP i unikalnym cyfrowym odciskiem palca, zapewniając pełne bezpieczeństwo."
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "Jak to działa?",
+    "description": "Nasz system X automatycznie wykrywa Twoje posty i strategicznie angażuje je przy użyciu naszych kont premium. Każda interakcja jest starannie zaprojektowana, aby naśladować naturalne zachowanie człowieka - od prędkości pisania po czas zaangażowania.",
+    "resultsTitle": "Przykładowe wyniki dla naszych klientów:",
+    "results": [
+      "300% wzrost organicznego zasięgu w ciągu pierwszych 30 dni",
+      "150-200% wzrost obserwujących miesięcznie",
+      "Znaczący wzrost współczynnika zaangażowania dzięki naturalnym interakcjom",
+      "Lepsza widoczność w wyszukiwarkach i wyższe pozycjonowanie w trendach"
+    ],
+    "monitoringTitle": "Monitorowanie i analiza",
+    "monitoringDescription": "Otrzymuj szczegółowe analizy wzrostu i zaangażowania oraz raporty wydajności dostosowane do Twoich celów."
+  },
+  "pricing": {
+    "title": "Wybierz plan, który odpowiada Twoim potrzebom:",
+    "subtitle": "Wszystkie plany zawierają pełny dostęp do naszej platformy X (Twitter) z różnymi poziomami wsparcia i zaangażowania.",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "price": "999",
+        "period": "miesięcznie",
+        "features": [
+          "Dostęp do 500 kont premium",
+          "50 dziennych interakcji",
+          "Podstawowa analityka"
+        ],
+        "button": "Wybierz plan"
+      },
+      "growthPro": {
+        "name": "Growth Pro",
+        "badge": "Najpopularniejszy",
+        "price": "2499",
+        "period": "miesięcznie",
+        "features": [
+          "Dostęp do 1500 kont premium",
+          "200 dziennych interakcji",
+          "Zaawansowana analityka"
+        ],
+        "button": "Wybierz plan"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "4999",
+        "period": "miesięcznie",
+        "features": [
+          "Pełny dostęp do 3000+ kont",
+          "500+ dziennych interakcji",
+          "Dedykowane wsparcie 24/7"
+        ],
+        "button": "Wybierz plan"
+      }
+    }
+  },
+  "cta": {
+    "title": "Gotowy, aby zdominować X i wyprzedzić konkurencję?",
+    "subtitle": "Skontaktuj się z nami już dziś i zobacz, jak możemy pomóc Ci zwiększyć cyfrową widoczność!",
+    "primaryButton": "Zacznij teraz",
+    "secondaryButton": "Skontaktuj się z nami"
+  }
+}
