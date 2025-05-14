@@ -27,7 +27,7 @@ const Hero = () => {
     <section className="py-20 px-4 md:px-8">
       <div className="container mx-auto text-center max-w-5xl">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight">
-          <span className="gradient-text">xBoost Marketing</span> - {t("hero.title")}
+          <span className="gradient-text">xBoost Marketing</span>
         </h1>
         
         <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 mb-8 text-lg font-medium">
