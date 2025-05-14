@@ -10,7 +10,6 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
-import { Button } from "./ui/button";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { useTranslation } from "react-i18next";
 
@@ -80,12 +79,8 @@ const Navbar = () => {
           </NavigationMenuList>
         </NavigationMenu>
 
-        <div className="flex items-center gap-4">
+        <div className="flex items-center">
           <LanguageSwitcher />
-          <Button variant="outline" className="hidden md:inline-flex">
-            {t("common:buttons.login")}
-          </Button>
-          <Button>{t("common:buttons.getStarted")}</Button>
         </div>
       </div>
     </header>
