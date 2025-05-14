@@ -19,14 +19,6 @@ import indexPl from "./locales/pl/index.json";
 import faqPl from "./locales/pl/faq.json";
 import blogPl from "./locales/pl/blog.json";
 
-// German translations
-import commonDe from "./locales/de/common.json";
-import navbarDe from "./locales/de/navbar.json";
-import footerDe from "./locales/de/footer.json";
-import indexDe from "./locales/de/index.json";
-import faqDe from "./locales/de/faq.json";
-import blogDe from "./locales/de/blog.json";
-
 // Initialize i18n instance before exporting
 i18n
   .use(initReactI18next)
@@ -48,14 +40,6 @@ i18n
         index: indexPl,
         faq: faqPl,
         blog: blogPl,
-      },
-      de: {
-        common: commonDe,
-        navbar: navbarDe,
-        footer: footerDe,
-        index: indexDe,
-        faq: faqDe,
-        blog: blogDe,
       }
     },
     fallbackLng: "en",

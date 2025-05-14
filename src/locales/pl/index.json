@@ -59,6 +59,8 @@
   "pricing": {
     "title": "Przejrzyste Cenniki - Wybierz Plan Dla Swoich Potrzeb",
     "description": "Dopasuj odpowiedni pakiet do swoich potrzeb i zacznij zwiększać zasięgi swoich treści.",
+    "perMonth": "za miesiąc",
+    "choosePlan": "Wybierz plan",
     "plans": {
       "starter": {
         "title": "Starter",

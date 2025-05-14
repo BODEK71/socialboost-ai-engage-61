@@ -59,6 +59,8 @@
   "pricing": {
     "title": "Transparent Pricing - Choose a Plan for Your Needs",
     "description": "Match the right package to your needs and start increasing the reach of your content.",
+    "perMonth": "per month",
+    "choosePlan": "Choose plan",
     "plans": {
       "starter": {
         "title": "Starter",
