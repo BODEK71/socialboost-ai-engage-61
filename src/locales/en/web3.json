@@ -1,0 +1,116 @@
+
+{
+  "heroTitle": "Web3 Platforms - Strengthen Your Digital Presence in the Blockchain Space",
+  "heroSubtitle": "Strategic increase of reach and credibility in the Web3 ecosystem",
+  "heroButton": "Get Started Now",
+  "heroCard": {
+    "title": "Web3",
+    "description": "Our advanced Web3 platform automation service has been designed to dynamically increase the recognition and authority of your project in the blockchain space.",
+    "highlight": "We proudly offer access to a network of 3000+ active wallets and accounts that strategically enhance your project's visibility across the entire Web3 ecosystem."
+  },
+  "featuresSection": {
+    "title": "Why does our Web3 solution bring exceptional results?",
+    "features": [
+      {
+        "title": "Instant Recognition Growth",
+        "description": "Your blockchain initiatives gain much wider visibility in key Web3 communities."
+      },
+      {
+        "title": "Increased Investor Confidence",
+        "description": "Authentic activity around your project builds credibility and attracts real investors."
+      },
+      {
+        "title": "Strategic Engagement",
+        "description": "Our accounts generate valuable discussions and interactions that attract new participants to the ecosystem."
+      },
+      {
+        "title": "Organic Distribution",
+        "description": "Coordinated actions of our network increase the reach of your messages without raising suspicion."
+      }
+    ]
+  },
+  "advancedFeatures": {
+    "title": "Advanced Features of Our Web3 System",
+    "features": [
+      "3000+ authentic wallets with real transaction histories and activity on blockchain platforms",
+      "150+ accounts with web3ID on deBank building credibility and trust in the ecosystem",
+      "Professional blogging and content creation on mirror.xyz and other Web3 platforms",
+      "Strategic interactions on forums, Discord, Telegram, and other key Web3 communication channels"
+    ],
+    "howItWorksTitle": "How Does It Work?",
+    "howItWorksDescription": "Our system automatically monitors your Web3 project activity and strategically engages through:",
+    "howItWorksList": [
+      "Creating valuable discussion threads",
+      "Generating authentic wallet activity",
+      "Supporting your announcements",
+      "Building community around the project"
+    ]
+  },
+  "results": {
+    "title": "Real Results for Web3 Projects",
+    "metrics": [
+      {
+        "value": "250-500%",
+        "description": "Project visibility increase in the first month"
+      },
+      {
+        "value": "300%",
+        "description": "Increase in authentic interactions with the project"
+      },
+      {
+        "value": "200%",
+        "description": "Growth in community activity across all platforms"
+      },
+      {
+        "value": "↑",
+        "description": "Significant increase in investor interest"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Choose the ideal plan for your Web3 project growth",
+    "subtitle": "All plans include full access to our platform with different levels of support and engagement.",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "price": "999",
+        "period": "per month",
+        "features": [
+          "Access to 500 premium wallets and accounts",
+          "Basic support for your project",
+          "Monthly efficiency reports"
+        ],
+        "button": "Choose plan"
+      },
+      "growthPro": {
+        "name": "Growth Pro",
+        "badge": "Most Popular",
+        "price": "2499",
+        "period": "per month",
+        "features": [
+          "Access to 1500 premium wallets and accounts",
+          "Advanced analytics and reports",
+          "Priority technical support"
+        ],
+        "button": "Choose plan"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "4999",
+        "period": "per month",
+        "features": [
+          "Full power of our wallet and account network",
+          "Dedicated 24/7 support team",
+          "Individually tailored strategy"
+        ],
+        "button": "Choose plan"
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to transform your presence in the Web3 ecosystem?",
+    "subtitle": "Contact us today and see how we can help your project stand out in the crowded blockchain space and attract valuable participants!",
+    "primaryButton": "Get Started Now",
+    "secondaryButton": "Contact us"
+  }
+}

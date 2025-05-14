@@ -10,6 +10,9 @@ import footerEn from "./locales/en/footer.json";
 import indexEn from "./locales/en/index.json";
 import faqEn from "./locales/en/faq.json";
 import blogEn from "./locales/en/blog.json";
+import xTwitterEn from "./locales/en/xtwitter.json";
+import youtubeEn from "./locales/en/youtube.json";
+import web3En from "./locales/en/web3.json";
 
 // Polish translations
 import commonPl from "./locales/pl/common.json";
@@ -32,6 +35,9 @@ i18n
         index: indexEn,
         faq: faqEn,
         blog: blogEn,
+        xtwitter: xTwitterEn,
+        youtube: youtubeEn,
+        web3: web3En
       },
       pl: {
         common: commonPl,
@@ -39,7 +45,7 @@ i18n
         footer: footerPl,
         index: indexPl,
         faq: faqPl,
-        blog: blogPl,
+        blog: blogPl
       }
     },
     fallbackLng: "en",

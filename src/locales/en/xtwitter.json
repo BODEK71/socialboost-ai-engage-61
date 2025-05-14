@@ -1,0 +1,91 @@
+
+{
+  "heroTitle": "X (Twitter) - Dominate Algorithms and Increase Your Reach",
+  "heroSubtitle": "Instantly boost reach and engagement on the X platform",
+  "heroButton": "Get Started Now",
+  "heroCard": {
+    "title": "X (Twitter)",
+    "description": "Our advanced automation service on the X platform (formerly Twitter) was created to provide your brand or project with spectacular growth in visibility and engagement.",
+    "highlight": "We proudly present our community of over 3000 active, premium accounts that strategically strengthen your content."
+  },
+  "featuresSection": {
+    "title": "Why is our X solution unique?",
+    "features": [
+      {
+        "title": "Instant Reach Increase",
+        "description": "Your posts reach a much wider audience from the first day you use our services."
+      },
+      {
+        "title": "Natural-Looking Interactions",
+        "description": "Each account has its own writing style, vocabulary preferences, and individual activity patterns, creating authentic and credible engagement."
+      },
+      {
+        "title": "Over 12 Years of Authentic History",
+        "description": "Our accounts have rich histories dating back to 2009, which builds their credibility in the eyes of algorithms."
+      },
+      {
+        "title": "Unique IP and Digital Footprint",
+        "description": "Each account operates with a dedicated IP address and unique digital footprint, ensuring complete security."
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "How Does It Work?",
+    "description": "Our X system automatically detects your posts and strategically engages with them using our premium accounts. Each interaction is carefully designed to mimic natural human behavior - from typing speed to engagement time.",
+    "resultsTitle": "Sample results for our clients:",
+    "results": [
+      "300% increase in organic reach during the first 30 days",
+      "150-200% increase in followers monthly",
+      "Significant increase in engagement rate through natural interactions",
+      "Improved visibility in search engines and higher positioning in trends"
+    ],
+    "monitoringTitle": "Monitoring and Analysis",
+    "monitoringDescription": "Receive detailed growth and engagement analyses and performance reports tailored to your goals."
+  },
+  "pricing": {
+    "title": "Choose a plan that fits your needs:",
+    "subtitle": "All plans include full access to our X (Twitter) platform with different levels of support and engagement.",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "price": "999",
+        "period": "per month",
+        "features": [
+          "Access to 500 premium accounts",
+          "50 daily interactions",
+          "Basic analytics"
+        ],
+        "button": "Choose plan"
+      },
+      "growthPro": {
+        "name": "Growth Pro",
+        "badge": "Most Popular",
+        "price": "2499",
+        "period": "per month",
+        "features": [
+          "Access to 1500 premium accounts",
+          "200 daily interactions",
+          "Advanced analytics"
+        ],
+        "button": "Choose plan"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "4999",
+        "period": "per month",
+        "features": [
+          "Full access to 3000+ accounts",
+          "500+ daily interactions",
+          "Dedicated 24/7 support"
+        ],
+        "button": "Choose plan"
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to dominate X and stay ahead of competition?",
+    "subtitle": "Contact us today and see how we can help you increase your digital visibility!",
+    "primaryButton": "Get Started Now",
+    "secondaryButton": "Contact us"
+  }
+}

@@ -1,0 +1,91 @@
+
+{
+  "heroTitle": "YouTube - Powerful Solution to Increase Your Content Visibility",
+  "heroSubtitle": "Increase reach and improve positioning of your videos in record time",
+  "heroButton": "Get Started Now",
+  "heroCard": {
+    "title": "YouTube",
+    "description": "Our advanced YouTube automation service has been designed to dramatically increase the visibility of your content and improve its positioning in the platform's algorithms.",
+    "highlight": "We have a network of 3000+ active premium accounts that work together to provide your videos with an immediate increase in views, engagement, and subscriptions."
+  },
+  "featuresSection": {
+    "title": "What makes our YouTube solution stand out?",
+    "features": [
+      {
+        "title": "90-100% Video Completion Rate",
+        "description": "Our accounts watch your content in full, which dramatically improves viewer retention metrics and catapults your videos in search results."
+      },
+      {
+        "title": "Algorithm-Friendly Engagement",
+        "description": "The system generates comments, likes, and shares in a strategic way that is favored by YouTube algorithms."
+      },
+      {
+        "title": "Established Viewing Histories",
+        "description": "Each account has a rich, authentic viewing history, making their interactions highly credible to YouTube algorithms."
+      },
+      {
+        "title": "Complete Security",
+        "description": "Our accounts operate with unique digital footprints, ensuring a natural pattern of behavior."
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "How does our solution help your channel?",
+    "description": "Our system automatically detects your new videos and launches a strategic engagement campaign.",
+    "resultsTitle": "Real results that our clients achieve:",
+    "results": [
+      "200-400% increase in views compared to standard results",
+      "Better positions in YouTube search results and recommendations",
+      "Increased organic engagement from real users",
+      "Faster subscriber growth due to increased visibility"
+    ],
+    "campaignTitle": "Comprehensive Campaign",
+    "campaignDescription": "Organic views with high video completion rate, natural growth pace, contextual comments, and strategic likes."
+  },
+  "pricing": {
+    "title": "Choose the right plan for your channel's growth:",
+    "subtitle": "All plans include full access to our YouTube platform with different levels of support and engagement.",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "price": "999",
+        "period": "per month",
+        "features": [
+          "Access to 500 premium accounts",
+          "Basic support for your content",
+          "Monthly results report"
+        ],
+        "button": "Choose plan"
+      },
+      "growthPro": {
+        "name": "Growth Pro",
+        "badge": "Most Popular",
+        "price": "2499",
+        "period": "per month",
+        "features": [
+          "Access to 1500 premium accounts",
+          "Advanced analytics and reports",
+          "Priority support"
+        ],
+        "button": "Choose plan"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "4999",
+        "period": "per month",
+        "features": [
+          "Full power of our network",
+          "Dedicated 24/7 support team",
+          "Full channel growth strategy"
+        ],
+        "button": "Choose plan"
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready for your YouTube channel transformation?",
+    "subtitle": "Contact us today and see how we can help you break through the crowded YouTube space and reach a wider audience!",
+    "primaryButton": "Get Started Now",
+    "secondaryButton": "Contact us"
+  }
+}
