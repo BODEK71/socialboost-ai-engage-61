@@ -3,12 +3,25 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { toast } from "@/components/ui/use-toast";
 
 const Hero = () => {
   const { t } = useTranslation("index");
 
-  // Ensure features are explicitly typed as an array
-  const features = t("hero.features", { returnObjects: true }) as string[];
+  // Ensure features is always an array even if translation fails
+  let features = [];
+  try {
+    const translatedFeatures = t("hero.features", { returnObjects: true });
+    features = Array.isArray(translatedFeatures) ? translatedFeatures : [];
+  } catch (error) {
+    console.error("Error loading features:", error);
+    // Show toast notification on error
+    toast({
+      title: "Translation Error",
+      description: "Could not load feature list",
+      variant: "destructive",
+    });
+  }
 
   return (
     <section className="py-20 px-4 md:px-8">
