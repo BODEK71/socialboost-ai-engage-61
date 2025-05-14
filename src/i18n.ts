@@ -13,6 +13,7 @@ import blogEn from "./locales/en/blog.json";
 import xTwitterEn from "./locales/en/xtwitter.json";
 import youtubeEn from "./locales/en/youtube.json";
 import web3En from "./locales/en/web3.json";
+import contactEn from "./locales/en/contact.json";
 
 // Polish translations
 import commonPl from "./locales/pl/common.json";
@@ -22,6 +23,7 @@ import indexPl from "./locales/pl/index.json";
 import faqPl from "./locales/pl/faq.json";
 import blogPl from "./locales/pl/blog.json";
 import xTwitterPl from "./locales/pl/xtwitter.json";
+import contactPl from "./locales/pl/contact.json";
 
 // German translations
 import commonDe from "./locales/de/common.json";
@@ -31,6 +33,7 @@ import indexDe from "./locales/de/index.json";
 import faqDe from "./locales/de/faq.json";
 import blogDe from "./locales/de/blog.json";
 import xTwitterDe from "./locales/de/xtwitter.json";
+import contactDe from "./locales/de/contact.json";
 
 // Initialize i18n instance before exporting
 i18n
@@ -47,7 +50,8 @@ i18n
         blog: blogEn,
         xtwitter: xTwitterEn,
         youtube: youtubeEn,
-        web3: web3En
+        web3: web3En,
+        contact: contactEn
       },
       pl: {
         common: commonPl,
@@ -56,7 +60,8 @@ i18n
         index: indexPl,
         faq: faqPl,
         blog: blogPl,
-        xtwitter: xTwitterPl
+        xtwitter: xTwitterPl,
+        contact: contactPl
       },
       de: {
         common: commonDe,
@@ -65,7 +70,8 @@ i18n
         index: indexDe,
         faq: faqDe,
         blog: blogDe,
-        xtwitter: xTwitterDe
+        xtwitter: xTwitterDe,
+        contact: contactDe
       }
     },
     fallbackLng: "en",

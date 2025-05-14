@@ -1,0 +1,23 @@
+
+{
+  "pageTitle": "Contact Us",
+  "pageDescription": "Get in touch with our team. We're here to answer your questions and help you leverage our platform to grow your social media presence.",
+  "officeTitle": "Office",
+  "officeAddress": "123 Tech Street, Warsaw, Poland",
+  "phoneTitle": "Phone",
+  "emailTitle": "Email",
+  "formNameLabel": "Name",
+  "formNamePlaceholder": "Enter your name",
+  "formEmailLabel": "Email",
+  "formEmailPlaceholder": "Enter your email",
+  "formSubjectLabel": "Subject",
+  "formSubjectPlaceholder": "What is this regarding?",
+  "formMessageLabel": "Message",
+  "formMessagePlaceholder": "Tell us how we can help you...",
+  "formSubmitButton": "Send Message",
+  "formSubmitting": "Sending...",
+  "formSuccessTitle": "Message Sent!",
+  "formSuccessDescription": "Thank you for contacting us. We will get back to you soon.",
+  "formErrorTitle": "Error",
+  "formErrorDescription": "Something went wrong. Please try again later."
+}

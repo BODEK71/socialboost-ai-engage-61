@@ -1,0 +1,23 @@
+
+{
+  "pageTitle": "Kontakt",
+  "pageDescription": "Skontaktuj się z naszym zespołem. Jesteśmy tutaj, aby odpowiedzieć na Twoje pytania i pomóc Ci wykorzystać naszą platformę do zwiększenia obecności w mediach społecznościowych.",
+  "officeTitle": "Biuro",
+  "officeAddress": "ul. Technologiczna 123, Warszawa, Polska",
+  "phoneTitle": "Telefon",
+  "emailTitle": "Email",
+  "formNameLabel": "Imię",
+  "formNamePlaceholder": "Wprowadź swoje imię",
+  "formEmailLabel": "Email",
+  "formEmailPlaceholder": "Wprowadź swój email",
+  "formSubjectLabel": "Temat",
+  "formSubjectPlaceholder": "Czego dotyczy wiadomość?",
+  "formMessageLabel": "Wiadomość",
+  "formMessagePlaceholder": "Opisz, w czym możemy Ci pomóc...",
+  "formSubmitButton": "Wyślij wiadomość",
+  "formSubmitting": "Wysyłanie...",
+  "formSuccessTitle": "Wiadomość wysłana!",
+  "formSuccessDescription": "Dziękujemy za kontakt. Odpowiemy wkrótce.",
+  "formErrorTitle": "Błąd",
+  "formErrorDescription": "Coś poszło nie tak. Spróbuj ponownie później."
+}

@@ -1,0 +1,23 @@
+
+{
+  "pageTitle": "Kontakt",
+  "pageDescription": "Nehmen Sie Kontakt mit unserem Team auf. Wir sind hier, um Ihre Fragen zu beantworten und Ihnen zu helfen, unsere Plattform zu nutzen, um Ihre Präsenz in sozialen Medien zu steigern.",
+  "officeTitle": "Büro",
+  "officeAddress": "123 Tech Straße, Warschau, Polen",
+  "phoneTitle": "Telefon",
+  "emailTitle": "E-Mail",
+  "formNameLabel": "Name",
+  "formNamePlaceholder": "Geben Sie Ihren Namen ein",
+  "formEmailLabel": "E-Mail",
+  "formEmailPlaceholder": "Geben Sie Ihre E-Mail ein",
+  "formSubjectLabel": "Betreff",
+  "formSubjectPlaceholder": "Worum geht es?",
+  "formMessageLabel": "Nachricht",
+  "formMessagePlaceholder": "Sagen Sie uns, wie wir Ihnen helfen können...",
+  "formSubmitButton": "Nachricht senden",
+  "formSubmitting": "Wird gesendet...",
+  "formSuccessTitle": "Nachricht gesendet!",
+  "formSuccessDescription": "Vielen Dank für Ihre Kontaktaufnahme. Wir melden uns in Kürze bei Ihnen.",
+  "formErrorTitle": "Fehler",
+  "formErrorDescription": "Etwas ist schiefgelaufen. Bitte versuchen Sie es später erneut."
+}
