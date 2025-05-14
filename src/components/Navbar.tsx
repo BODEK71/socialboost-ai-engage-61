@@ -18,9 +18,9 @@ const Navbar = () => {
 
   return (
     <header className="border-b bg-white sticky top-0 z-40">
-      <div className="container mx-auto max-w-7xl py-4 px-4 md:px-8 flex items-center justify-between">
+      <div className="container mx-auto max-w-7xl py-3 px-4 md:px-8 flex items-center justify-between">
         <Link to="/" className="flex-shrink-0">
-          <Logo />
+          <Logo size="large" />
         </Link>
 
         <NavigationMenu className="hidden md:flex">
