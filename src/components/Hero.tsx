@@ -7,6 +7,9 @@ import { useTranslation } from "react-i18next";
 const Hero = () => {
   const { t } = useTranslation("index");
 
+  // Ensure features are explicitly typed as an array
+  const features = t("hero.features", { returnObjects: true }) as string[];
+
   return (
     <section className="py-20 px-4 md:px-8">
       <div className="container mx-auto text-center max-w-5xl">
@@ -15,7 +18,7 @@ const Hero = () => {
         </h1>
         
         <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 mb-8 text-lg font-medium">
-          {t("hero.features", { returnObjects: true }).map((feature, index) => (
+          {features.map((feature, index) => (
             <div className="flex items-center" key={index}>
               <div className="w-2 h-2 rounded-full bg-brand-purple mr-2"></div>
               <span>{feature}</span>

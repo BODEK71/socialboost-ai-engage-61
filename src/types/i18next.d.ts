@@ -1,10 +1,12 @@
 
+import { ReactNode } from 'react';
+
 declare module 'react-i18next' {
   import { ReactNode } from 'react';
   import { i18n as I18nInterface } from 'i18next';
 
   export interface UseTranslationResponse {
-    t: (key: string, options?: any) => string;
+    t: (key: string, options?: any) => string | any;
     i18n: I18nInterface;
     ready: boolean;
   }

@@ -35,6 +35,12 @@ const Benefits = () => {
     <Cog className="h-6 w-6" key="cog" />
   ];
 
+  // Explicitly type the items as an array of objects
+  const benefitItems = t("benefits.items", { returnObjects: true }) as Array<{
+    title: string;
+    description: string;
+  }>;
+
   return (
     <section className="py-16 px-4 md:px-8 bg-gradient-to-b from-white to-brand-purple-soft/20">
       <div className="container mx-auto max-w-6xl">
@@ -46,7 +52,7 @@ const Benefits = () => {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
-          {t("benefits.items", { returnObjects: true }).map((item, index) => (
+          {benefitItems.map((item, index) => (
             <BenefitCard
               key={index}
               icon={icons[index % icons.length]}
