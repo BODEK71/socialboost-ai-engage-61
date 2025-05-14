@@ -1,0 +1,12 @@
+
+{
+  "buttons": {
+    "login": "Log In",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More",
+    "bookDemo": "Book a Demo",
+    "contactUs": "Contact Us",
+    "choosePlan": "Choose Plan"
+  },
+  "languageName": "English"
+}

@@ -1,0 +1,127 @@
+
+{
+  "hero": {
+    "title": "SocialBoost - Social Media Automation Revolution",
+    "features": [
+      "100% Reach Growth",
+      "Maximum Effectiveness",
+      "Complete Security"
+    ],
+    "description": "Welcome to the future of social media. SocialBoost is a breakthrough platform that provides you with a powerful army of premium accounts, strategically strengthening your content. Increase your reach, improve visibility and dominate platform algorithms - all with guaranteed spectacular results.",
+    "cta": {
+      "primary": "Start Now",
+      "secondary": "Book a Demo"
+    }
+  },
+  "features": {
+    "title": "Our Supported Platforms",
+    "description": "Why do brands and creators choose SocialBoost? Leverage our network of over 3,000 premium accounts, with authentic history dating back to 2009.",
+    "platforms": {
+      "xTwitter": {
+        "title": "X (Twitter)",
+        "points": [
+          "3000+ active accounts with 12-year history",
+          "Engagement indistinguishable from human",
+          "Unique IPs and digital fingerprints",
+          "0% ban guarantee"
+        ]
+      },
+      "youtube": {
+        "title": "YouTube",
+        "points": [
+          "3000+ active accounts with viewing histories",
+          "90-100% video completion rate",
+          "Algorithm-friendly engagement",
+          "Flawless operation history"
+        ]
+      },
+      "web3": {
+        "title": "Web3 Platforms",
+        "points": [
+          "1000+ wallets with authentic histories",
+          "150+ accounts with web3ID on deBank",
+          "Blogging and content creation on mirror.xyz",
+          "Highest level of security"
+        ]
+      },
+      "instagram": {
+        "title": "Instagram",
+        "comingSoon": "Q3 2025",
+        "points": [
+          "Long-term, trusted accounts",
+          "Natural engagement history",
+          "Story views and interactions",
+          "Full security and support"
+        ]
+      }
+    }
+  },
+  "pricing": {
+    "title": "Transparent Pricing - Choose a Plan for Your Needs",
+    "description": "Match the right package to your needs and start increasing the reach of your content.",
+    "plans": {
+      "starter": {
+        "title": "Starter",
+        "price": "$249",
+        "features": [
+          "Access to 500 premium accounts",
+          "2 platforms of your choice",
+          "50 daily interactions",
+          "Basic analytics panel",
+          "Email support"
+        ]
+      },
+      "growthPro": {
+        "title": "Growth Pro",
+        "price": "$599",
+        "popular": "Most Popular",
+        "features": [
+          "Access to 1500 premium accounts",
+          "All platforms included",
+          "200 daily interactions",
+          "Advanced analytics and reports",
+          "Priority support and strategy sessions"
+        ]
+      },
+      "enterprise": {
+        "title": "Enterprise",
+        "price": "$1199",
+        "features": [
+          "Full access to all 3000+ accounts",
+          "Unlimited platform integration",
+          "500+ daily interactions",
+          "Full access to KOL market analysis",
+          "Dedicated 24/7 support team"
+        ]
+      }
+    }
+  },
+  "benefits": {
+    "title": "What Really Sets SocialBoost Apart?",
+    "description": "Our advanced technology and unique approach deliver results you won't achieve anywhere else.",
+    "items": [
+      {
+        "title": "Undetectable Premium Accounts",
+        "description": "Our accounts are 100% authentic, established between 2009-2022, with real browsing histories and credibility."
+      },
+      {
+        "title": "AI Creating Human Engagement",
+        "description": "Our AI creates organically indistinguishable interactions that evolve naturally over time with unique styles for each account."
+      },
+      {
+        "title": "Exclusive Market Analysis",
+        "description": "Gain insight into trends by monitoring over 600 key opinion leaders with early indicators of new opportunities."
+      },
+      {
+        "title": "Full Automation",
+        "description": "Set it and forget it with our fully automated engagement management and strategic planning system."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready for Social Media Domination?",
+    "description": "Contact us today and see how SocialBoost can transform your digital presence. Schedule a demonstration and see why we're the leader in advanced social media automation.",
+    "primary": "Book a Demo",
+    "secondary": "Contact Us"
+  }
+}

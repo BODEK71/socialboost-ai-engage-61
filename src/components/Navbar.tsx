@@ -8,12 +8,15 @@ import {
   NavigationMenuItem,
   NavigationMenuList,
   NavigationMenuTrigger,
-  NavigationMenuLink,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import { Button } from "./ui/button";
+import LanguageSwitcher from "./LanguageSwitcher";
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
+  const { t } = useTranslation(["navbar", "common"]);
+
   return (
     <header className="border-b bg-white sticky top-0 z-40">
       <div className="container mx-auto max-w-7xl py-4 px-4 md:px-8 flex items-center justify-between">
@@ -25,35 +28,35 @@ const Navbar = () => {
           <NavigationMenuList>
             <NavigationMenuItem>
               <Link to="/" className={navigationMenuTriggerStyle()}>
-                Główna
+                {t("home")}
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <NavigationMenuTrigger>Platformy</NavigationMenuTrigger>
+              <NavigationMenuTrigger>{t("platforms")}</NavigationMenuTrigger>
               <NavigationMenuContent>
                 <div className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
                   <Link to="/x-twitter" className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground">
-                    <div className="text-sm font-medium leading-none">X (Twitter)</div>
+                    <div className="text-sm font-medium leading-none">{t("platformsItems.xTwitter")}</div>
                     <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-                      Zwiększ zasięgi i zaangażowanie na platformie X
+                      {t("platformsItems.xTwitterDesc")}
                     </p>
                   </Link>
                   <Link to="/youtube" className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground">
-                    <div className="text-sm font-medium leading-none">YouTube</div>
+                    <div className="text-sm font-medium leading-none">{t("platformsItems.youtube")}</div>
                     <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-                      Zwiększ wyświetlenia i subskrypcje
+                      {t("platformsItems.youtubeDesc")}
                     </p>
                   </Link>
                   <Link to="/web3" className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground">
-                    <div className="text-sm font-medium leading-none">Web3</div>
+                    <div className="text-sm font-medium leading-none">{t("platformsItems.web3")}</div>
                     <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-                      Buduj społeczność w Web3
+                      {t("platformsItems.web3Desc")}
                     </p>
                   </Link>
                   <div className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors text-muted-foreground">
-                    <div className="text-sm font-medium leading-none">Instagram</div>
+                    <div className="text-sm font-medium leading-none">{t("platformsItems.instagram")}</div>
                     <p className="line-clamp-2 text-sm leading-snug">
-                      Wkrótce dostępne (Q3 2025)
+                      {t("platformsItems.instagramDesc")}
                     </p>
                   </div>
                 </div>
@@ -61,27 +64,28 @@ const Navbar = () => {
             </NavigationMenuItem>
             <NavigationMenuItem>
               <Link to="/blog" className={navigationMenuTriggerStyle()}>
-                Blog
+                {t("blog")}
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <Link to="/faq" className={navigationMenuTriggerStyle()}>
-                FAQ
+                {t("faq")}
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <Link to="/kontakt" className={navigationMenuTriggerStyle()}>
-                Kontakt
+                {t("contact")}
               </Link>
             </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
 
         <div className="flex items-center gap-4">
+          <LanguageSwitcher />
           <Button variant="outline" className="hidden md:inline-flex">
-            Zaloguj się
+            {t("common:buttons.login")}
           </Button>
-          <Button>Rozpocznij</Button>
+          <Button>{t("common:buttons.getStarted")}</Button>
         </div>
       </div>
     </header>

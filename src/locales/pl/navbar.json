@@ -1,0 +1,18 @@
+
+{
+  "home": "Główna",
+  "platforms": "Platformy",
+  "platformsItems": {
+    "xTwitter": "X (Twitter)",
+    "xTwitterDesc": "Zwiększ zasięgi i zaangażowanie na platformie X",
+    "youtube": "YouTube",
+    "youtubeDesc": "Zwiększ wyświetlenia i subskrypcje",
+    "web3": "Web3",
+    "web3Desc": "Buduj społeczność w Web3",
+    "instagram": "Instagram",
+    "instagramDesc": "Wkrótce dostępne (Q3 2025)"
+  },
+  "blog": "Blog",
+  "faq": "FAQ",
+  "contact": "Kontakt"
+}

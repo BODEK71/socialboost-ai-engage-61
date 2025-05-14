@@ -1,0 +1,12 @@
+
+{
+  "buttons": {
+    "login": "Zaloguj się",
+    "getStarted": "Rozpocznij",
+    "learnMore": "Dowiedz się więcej",
+    "bookDemo": "Umów demonstrację",
+    "contactUs": "Skontaktuj się z nami",
+    "choosePlan": "Wybierz plan"
+  },
+  "languageName": "Polski"
+}

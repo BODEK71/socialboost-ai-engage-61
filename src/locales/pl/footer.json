@@ -1,0 +1,28 @@
+
+{
+  "description": "SocialBoost - Twoja przewaga w cyfrowym świecie. Zaawansowana platforma do zwiększania zasięgów i widoczności w mediach społecznościowych.",
+  "sections": {
+    "platforms": {
+      "title": "Platformy",
+      "xTwitter": "X (Twitter)",
+      "youtube": "YouTube",
+      "web3": "Platformy Web3",
+      "instagram": "Instagram (wkrótce)"
+    },
+    "company": {
+      "title": "Firma",
+      "about": "O nas",
+      "pricing": "Cennik",
+      "contact": "Kontakt",
+      "faq": "FAQ"
+    },
+    "support": {
+      "title": "Wsparcie",
+      "helpCenter": "Centrum pomocy",
+      "blog": "Blog",
+      "privacyPolicy": "Polityka prywatności",
+      "termsOfService": "Warunki usługi"
+    }
+  },
+  "copyright": "© {year} SocialBoost. Wszelkie prawa zastrzeżone."
+}

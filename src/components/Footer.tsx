@@ -2,8 +2,11 @@
 import React from "react";
 import Logo from "./Logo";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t } = useTranslation("footer");
+
   return (
     <footer className="bg-brand-purple-dark text-white py-12 px-4 md:px-8">
       <div className="container mx-auto max-w-6xl">
@@ -11,40 +14,38 @@ const Footer = () => {
           <div className="md:w-1/3">
             <Logo />
             <p className="mt-4 text-white/70">
-              SocialBoost - Twoja przewaga w cyfrowym świecie. 
-              Zaawansowana platforma do zwiększania zasięgów i widoczności 
-              w mediach społecznościowych.
+              {t("description")}
             </p>
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-lg font-bold mb-4">Platformy</h3>
+              <h3 className="text-lg font-bold mb-4">{t("sections.platforms.title")}</h3>
               <ul className="space-y-2">
-                <li><Link to="/x-twitter" className="text-white/70 hover:text-white">X (Twitter)</Link></li>
-                <li><Link to="/youtube" className="text-white/70 hover:text-white">YouTube</Link></li>
-                <li><Link to="/web3" className="text-white/70 hover:text-white">Platformy Web3</Link></li>
-                <li><span className="text-white/70">Instagram (wkrótce)</span></li>
+                <li><Link to="/x-twitter" className="text-white/70 hover:text-white">{t("sections.platforms.xTwitter")}</Link></li>
+                <li><Link to="/youtube" className="text-white/70 hover:text-white">{t("sections.platforms.youtube")}</Link></li>
+                <li><Link to="/web3" className="text-white/70 hover:text-white">{t("sections.platforms.web3")}</Link></li>
+                <li><span className="text-white/70">{t("sections.platforms.instagram")}</span></li>
               </ul>
             </div>
             
             <div>
-              <h3 className="text-lg font-bold mb-4">Firma</h3>
+              <h3 className="text-lg font-bold mb-4">{t("sections.company.title")}</h3>
               <ul className="space-y-2">
-                <li><Link to="/" className="text-white/70 hover:text-white">O nas</Link></li>
-                <li><Link to="/cennik" className="text-white/70 hover:text-white">Cennik</Link></li>
-                <li><Link to="/kontakt" className="text-white/70 hover:text-white">Kontakt</Link></li>
-                <li><Link to="/faq" className="text-white/70 hover:text-white">FAQ</Link></li>
+                <li><Link to="/" className="text-white/70 hover:text-white">{t("sections.company.about")}</Link></li>
+                <li><Link to="/cennik" className="text-white/70 hover:text-white">{t("sections.company.pricing")}</Link></li>
+                <li><Link to="/kontakt" className="text-white/70 hover:text-white">{t("sections.company.contact")}</Link></li>
+                <li><Link to="/faq" className="text-white/70 hover:text-white">{t("sections.company.faq")}</Link></li>
               </ul>
             </div>
             
             <div>
-              <h3 className="text-lg font-bold mb-4">Wsparcie</h3>
+              <h3 className="text-lg font-bold mb-4">{t("sections.support.title")}</h3>
               <ul className="space-y-2">
-                <li><Link to="/kontakt" className="text-white/70 hover:text-white">Centrum pomocy</Link></li>
-                <li><Link to="/blog" className="text-white/70 hover:text-white">Blog</Link></li>
-                <li><Link to="/polityka-prywatnosci" className="text-white/70 hover:text-white">Polityka prywatności</Link></li>
-                <li><Link to="/warunki-uzytkowania" className="text-white/70 hover:text-white">Warunki usługi</Link></li>
+                <li><Link to="/kontakt" className="text-white/70 hover:text-white">{t("sections.support.helpCenter")}</Link></li>
+                <li><Link to="/blog" className="text-white/70 hover:text-white">{t("sections.support.blog")}</Link></li>
+                <li><Link to="/polityka-prywatnosci" className="text-white/70 hover:text-white">{t("sections.support.privacyPolicy")}</Link></li>
+                <li><Link to="/warunki-uzytkowania" className="text-white/70 hover:text-white">{t("sections.support.termsOfService")}</Link></li>
               </ul>
             </div>
           </div>
@@ -52,7 +53,7 @@ const Footer = () => {
         
         <div className="border-t border-white/10 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-white/50 text-sm">
-            &copy; {new Date().getFullYear()} SocialBoost. Wszelkie prawa zastrzeżone.
+            {t("copyright", { year: new Date().getFullYear() })}
           </p>
           <div className="flex gap-4 mt-4 md:mt-0">
             <a href="#" className="text-white/50 hover:text-white">

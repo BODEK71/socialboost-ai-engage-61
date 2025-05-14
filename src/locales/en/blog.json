@@ -1,0 +1,86 @@
+
+{
+  "title": "SocialBoost Blog",
+  "subtitle": "Expert advice and analysis from the world of social media",
+  "latestArticles": "Latest Articles",
+  "articles": [
+    {
+      "id": "article-1",
+      "title": "Why 80% of Content on X (Twitter) Never Reaches Its Full Potential",
+      "date": "May 3, 2025",
+      "author": "Martha Johnson, Head of Strategy",
+      "excerpt": "We analyze X algorithm mechanisms and explain why most content never reaches a wider audience. Learn the 5 key factors that determine success."
+    },
+    {
+      "id": "article-2",
+      "title": "How YouTube Hides 60% of Videos from Potential Viewers",
+      "date": "April 22, 2025",
+      "author": "John Smith, Video Content Specialist",
+      "excerpt": "We reveal unknown aspects of the YouTube algorithm that makes most content practically invisible. See how to break these barriers and increase the reach of your videos."
+    },
+    {
+      "id": "article-3",
+      "title": "Case Study: How a Startup Increased Organic Reach by 412% in 30 Days",
+      "date": "April 15, 2025",
+      "author": "SocialBoost Team",
+      "excerpt": "We present a detailed case analysis of a fintech startup that dramatically increased its visibility and engagement in social media with our help."
+    },
+    {
+      "id": "article-4",
+      "title": "The Coming Instagram Revolution - What Awaits Creators in 2025?",
+      "date": "April 7, 2025",
+      "author": "Alexandra Wilson, Social Media Analyst",
+      "excerpt": "Exclusive insight into upcoming changes to Instagram algorithms and strategies that will help you stay ahead of the competition in the second half of 2025."
+    },
+    {
+      "id": "article-5",
+      "title": "Web3 for Beginners - How to Build Community Around a Blockchain Project",
+      "date": "April 2, 2025",
+      "author": "Peter Brown, Web3 Specialist",
+      "excerpt": "A comprehensive guide to building an active community around blockchain projects, NFTs and other Web3 initiatives."
+    },
+    {
+      "id": "article-6",
+      "title": "Report: Social Media Trends Q2 2025",
+      "date": "March 28, 2025",
+      "author": "SocialBoost Analytics Team",
+      "excerpt": "Our comprehensive analysis of the most important social media trends for the second quarter of 2025. Find out what's worth focusing on in the coming months."
+    }
+  ],
+  "firstArticle": {
+    "title": "Why 80% of Content on X (Twitter) Never Reaches Its Full Potential",
+    "date": "May 3, 2025",
+    "author": "Martha Johnson, Head of Strategy",
+    "sections": [
+      {
+        "subtitle": "The Invisible Reach Barrier",
+        "content": "X platform (formerly Twitter) remains one of the most important communication channels for brands, influencers and content creators. However, according to our latest research, as much as 80% of all content published on this platform never reaches even 10% of its potential reach. Why is this happening? We conducted an in-depth analysis of over 250,000 posts published in the last 6 months to discover patterns and factors determining success or failure of content on X."
+      },
+      {
+        "subtitle": "Five Key Factors Determining Reach on X",
+        "content": "1. The first 15 minutes are crucial\nOur research has shown that the X algorithm largely makes decisions about further content promotion based on engagement in the first 15 minutes after publication. Posts that didn't receive significant engagement during this period have only a 2% chance of later achieving wide reach.\n\n2. \"Cold start\" is the biggest obstacle\nThe biggest challenge, especially for new accounts or content published by smaller brands, is the so-called \"cold start\". Without an initial impulse of engagement, even the most valuable content remains practically invisible.\n\n3. Credibility signals are more important than ever\nThe X algorithm increasingly favors content published by accounts with high credibility levels. Key signals are account history, previous engagement levels, and most importantly - the quality of interactions with the content.\n\n4. Invisible thematic bubbles\nWe discovered that X creates \"invisible thematic bubbles\", grouping users by interests and engagement history. Breaking through to new thematic bubbles is extremely difficult without a strategic approach.\n\n5. Interaction multiplier effect\nOur analyses showed a strong correlation between the diversity of interaction types and reach. Posts that generate diverse types of engagement (comments, retweets, likes, saves) have up to 600% greater reach than content with one dominant type of reaction."
+      },
+      {
+        "subtitle": "How to Break the Reach Barrier?",
+        "content": "Breaking these limitations requires a strategic approach and understanding of algorithm mechanisms. The key is:\n- Strategic building of the first wave of engagement\n- Creating content in a way that stimulates diverse interactions\n- Systematic building of account credibility\n- Use of advanced analytical tools for optimization"
+      }
+    ],
+    "readMore": "Read more..."
+  },
+  "viewAllArticles": "View all articles",
+  "newsletter": {
+    "title": "Subscribe to our newsletter",
+    "description": "Receive the latest analyses, reports and expert advice directly to your inbox."
+  },
+  "popularCategories": {
+    "title": "Most Popular Categories",
+    "categories": [
+      "X (Twitter) Strategies",
+      "YouTube Optimization",
+      "Web3 and Social Media",
+      "Algorithm Analyses",
+      "Case Studies",
+      "Reports and Research"
+    ]
+  }
+}
