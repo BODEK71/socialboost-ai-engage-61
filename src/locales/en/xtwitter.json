@@ -93,6 +93,35 @@
     "backButton": "Back to X Services",
     "title": "Increase Your Visibility on X (Twitter) with Our Support System",
     "intro": "Do your posts on the X (Twitter) platform deserve more attention? Our professional automated support system will help you strengthen your project's presence on Twitter. With friendly and intelligent features, we ensure that your content reaches a wider audience and that your profile remains active every day. Discover six key capabilities of our system that will simply increase your reach and engagement.",
+    "boostTable": {
+      "processTab": "Boosting Process",
+      "resultsTab": "Results Comparison",
+      "step": "Step",
+      "description": "What Happens",
+      "steps": {
+        "detection": "Post Detection",
+        "detectionDesc": "The system automatically detects your post moments after publication",
+        "processing": "Processing",
+        "processingDesc": "Our system begins work on the post with specified parameters",
+        "result": "Final Result",
+        "resultDesc": "The boosted post with increased engagement metrics"
+      },
+      "initialPost": "Initial post before boosting",
+      "processingPost": "Post during the boosting process",
+      "boostedPost": "Final result after boosting",
+      "beforeBoost": "Before Boosting",
+      "afterBoost": "After Boosting",
+      "beforeMetrics": {
+        "views": "Limited views (organic reach only)",
+        "engagement": "Low engagement rate (1-2%)",
+        "reach": "Restrictive algorithm distribution"
+      },
+      "afterMetrics": {
+        "views": "300%+ increase in views",
+        "engagement": "15-20% engagement rate",
+        "reach": "Wider algorithm distribution and higher ranking"
+      }
+    },
     "sections": {
       "autoboost": {
         "title": "Autoboost & Crawler – Automatic Enhancement of New Posts",

@@ -93,6 +93,35 @@
     "backButton": "Zurück zu X-Diensten",
     "title": "Erhöhen Sie Ihre Sichtbarkeit auf X (Twitter) mit unserem Unterstützungssystem",
     "intro": "Verdienen Ihre Beiträge auf der X-Plattform (Twitter) mehr Aufmerksamkeit? Unser professionelles automatisches Unterstützungssystem hilft Ihnen, die Präsenz Ihres Projekts auf Twitter zu stärken. Mit freundlichen und intelligenten Funktionen stellen wir sicher, dass Ihre Inhalte ein breiteres Publikum erreichen und Ihr Profil jeden Tag aktiv bleibt. Entdecken Sie sechs Schlüsselfunktionen unseres Systems, die Ihre Reichweite und Ihr Engagement ganz einfach erhöhen.",
+    "boostTable": {
+      "processTab": "Boosting-Prozess",
+      "resultsTab": "Ergebnisvergleich",
+      "step": "Schritt",
+      "description": "Was passiert",
+      "steps": {
+        "detection": "Beitragserkennung",
+        "detectionDesc": "Das System erkennt Ihren Beitrag automatisch kurz nach der Veröffentlichung",
+        "processing": "Verarbeitung",
+        "processingDesc": "Unser System beginnt die Arbeit am Beitrag mit festgelegten Parametern",
+        "result": "Endergebnis",
+        "resultDesc": "Der verstärkte Beitrag mit erhöhten Engagement-Metriken"
+      },
+      "initialPost": "Ursprünglicher Beitrag vor dem Boosting",
+      "processingPost": "Beitrag während des Boosting-Prozesses",
+      "boostedPost": "Endergebnis nach dem Boosting",
+      "beforeBoost": "Vor dem Boosting",
+      "afterBoost": "Nach dem Boosting",
+      "beforeMetrics": {
+        "views": "Begrenzte Aufrufe (nur organische Reichweite)",
+        "engagement": "Niedrige Engagement-Rate (1-2%)",
+        "reach": "Restriktive algorithmische Verteilung"
+      },
+      "afterMetrics": {
+        "views": "300%+ Steigerung der Aufrufe",
+        "engagement": "15-20% Engagement-Rate",
+        "reach": "Breitere algorithmische Verteilung und höheres Ranking"
+      }
+    },
     "sections": {
       "autoboost": {
         "title": "Autoboost und Crawler – Automatische Verstärkung neuer Beiträge",

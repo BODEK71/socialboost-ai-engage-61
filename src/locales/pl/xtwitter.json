@@ -93,6 +93,35 @@
     "backButton": "Powrót do usług X",
     "title": "Zwiększ swoją widoczność na X (Twitterze) z naszym systemem wsparcia",
     "intro": "Czy Twoje posty na platformie X (Twitter) zasługują na większą uwagę? Nasz profesjonalny system automatycznego wsparcia pomoże Ci wzmocnić obecność Twojego projektu na Twitterze. Dzięki przyjaznym i inteligentnym funkcjom zapewniamy, że Twoje treści dotrą do szerszego grona odbiorców, a Twój profil będzie aktywny każdego dnia. Poznaj sześć kluczowych możliwości naszego systemu, które w prosty sposób zwiększą zasięg i zaangażowanie Twojego konta.",
+    "boostTable": {
+      "processTab": "Proces boostowania",
+      "resultsTab": "Porównanie wyników",
+      "step": "Etap",
+      "description": "Co się dzieje",
+      "steps": {
+        "detection": "Wykrycie posta",
+        "detectionDesc": "System automatycznie wykrywa Twój post praktycznie chwilę po publikacji",
+        "processing": "Przetwarzanie",
+        "processingDesc": "Rozpoczęcie pracy nad postem z określonymi parametrami",
+        "result": "Efekt końcowy",
+        "resultDesc": "Wzmocniony post ze zwiększonymi metrykami zaangażowania"
+      },
+      "initialPost": "Post przed rozpoczęciem boostowania",
+      "processingPost": "Post w trakcie procesu boostowania",
+      "boostedPost": "Efekt końcowy po boostowaniu",
+      "beforeBoost": "Przed boostowaniem",
+      "afterBoost": "Po boostowaniu",
+      "beforeMetrics": {
+        "views": "Ograniczona liczba wyświetleń (tylko zasięg organiczny)",
+        "engagement": "Niski współczynnik zaangażowania (1-2%)",
+        "reach": "Restrykcyjna dystrybucja algorytmiczna"
+      },
+      "afterMetrics": {
+        "views": "Wzrost wyświetleń o ponad 300%",
+        "engagement": "Współczynnik zaangażowania 15-20%",
+        "reach": "Szersza dystrybucja algorytmiczna i wyższa pozycja"
+      }
+    },
     "sections": {
       "autoboost": {
         "title": "Autoboost i Crawler – Automatyczne wzmacnianie nowych postów",
