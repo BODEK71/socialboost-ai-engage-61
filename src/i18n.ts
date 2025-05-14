@@ -21,6 +21,16 @@ import footerPl from "./locales/pl/footer.json";
 import indexPl from "./locales/pl/index.json";
 import faqPl from "./locales/pl/faq.json";
 import blogPl from "./locales/pl/blog.json";
+import xTwitterPl from "./locales/pl/xtwitter.json";
+
+// German translations
+import commonDe from "./locales/de/common.json";
+import navbarDe from "./locales/de/navbar.json";
+import footerDe from "./locales/de/footer.json";
+import indexDe from "./locales/de/index.json";
+import faqDe from "./locales/de/faq.json";
+import blogDe from "./locales/de/blog.json";
+import xTwitterDe from "./locales/de/xtwitter.json";
 
 // Initialize i18n instance before exporting
 i18n
@@ -45,7 +55,17 @@ i18n
         footer: footerPl,
         index: indexPl,
         faq: faqPl,
-        blog: blogPl
+        blog: blogPl,
+        xtwitter: xTwitterPl
+      },
+      de: {
+        common: commonDe,
+        navbar: navbarDe,
+        footer: footerDe,
+        index: indexDe,
+        faq: faqDe,
+        blog: blogDe,
+        xtwitter: xTwitterDe
       }
     },
     fallbackLng: "en",

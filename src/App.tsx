@@ -6,6 +6,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import XTwitter from "./pages/XTwitter";
+import XTwitterDetails from "./pages/XTwitterDetails";
 import YouTube from "./pages/YouTube";
 import Web3 from "./pages/Web3";
 import FAQ from "./pages/FAQ";
@@ -24,6 +25,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/x-twitter" element={<XTwitter />} />
+          <Route path="/x-twitter/details" element={<XTwitterDetails />} />
           <Route path="/youtube" element={<YouTube />} />
           <Route path="/web3" element={<Web3 />} />
           <Route path="/faq" element={<FAQ />} />

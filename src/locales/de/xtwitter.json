@@ -40,7 +40,8 @@
       "Verbesserte Sichtbarkeit in Suchmaschinen und höhere Positionierung in Trends"
     ],
     "monitoringTitle": "Überwachung und Analyse",
-    "monitoringDescription": "Erhalten Sie detaillierte Wachstums- und Engagement-Analysen sowie Leistungsberichte, die auf Ihre Ziele zugeschnitten sind."
+    "monitoringDescription": "Erhalten Sie detaillierte Wachstums- und Engagement-Analysen sowie Leistungsberichte, die auf Ihre Ziele zugeschnitten sind.",
+    "detailsLinkText": "Entdecken Sie alle Funktionen unseres X-Unterstützungssystems"
   },
   "pricing": {
     "title": "Wählen Sie einen Plan, der zu Ihren Bedürfnissen passt:",
@@ -87,5 +88,39 @@
     "subtitle": "Kontaktieren Sie uns noch heute und sehen Sie, wie wir Ihnen helfen können, Ihre digitale Sichtbarkeit zu erhöhen!",
     "primaryButton": "Jetzt loslegen",
     "secondaryButton": "Kontaktieren Sie uns"
+  },
+  "details": {
+    "backButton": "Zurück zu X-Diensten",
+    "title": "Erhöhen Sie Ihre Sichtbarkeit auf X (Twitter) mit unserem Unterstützungssystem",
+    "intro": "Verdienen Ihre Beiträge auf der X-Plattform (Twitter) mehr Aufmerksamkeit? Unser professionelles automatisches Unterstützungssystem hilft Ihnen, die Präsenz Ihres Projekts auf Twitter zu stärken. Mit freundlichen und intelligenten Funktionen stellen wir sicher, dass Ihre Inhalte ein breiteres Publikum erreichen und Ihr Profil jeden Tag aktiv bleibt. Entdecken Sie sechs Schlüsselfunktionen unseres Systems, die Ihre Reichweite und Ihr Engagement ganz einfach erhöhen.",
+    "sections": {
+      "autoboost": {
+        "title": "Autoboost und Crawler – Automatische Verstärkung neuer Beiträge",
+        "content": "Sobald Sie einen neuen Beitrag veröffentlichen, bemerkt unser System dies sofort und 'boostet' ihn automatisch, indem es ihn gemäß festgelegten Parametern fördert. Das bedeutet, dass Ihre Inhalte nicht unbemerkt bleiben – sie erhalten sofort mehr Aufrufe, Likes und Shares. Ein einzigartiges Merkmal ist die Möglichkeit, Kommentare zu Ihrem Beitrag hinzuzufügen, die auf individuellen Prompts (Richtlinien) basieren. So kann unter Ihrer Veröffentlichung ein erster Kommentar erscheinen, der zur Diskussion anregt. Wichtig ist, dass alle Interaktionen natürlich innerhalb bestimmter Zeitfenster verteilt werden – Ihr Beitrag gewinnt subtil, aber effektiv an Popularität und baut glaubwürdiges Engagement beim Publikum auf."
+      },
+      "daily": {
+        "title": "Daily – Tägliche Aktivitäten auf Ihrem Profil",
+        "content": "Lassen Sie Ihr Profil jeden Tag lebendig sein. Die Daily-Funktion sorgt für regelmäßige Aktivität auf Ihrem Konto – sie führt täglich eine Reihe von Aktionen durch, die das Engagement des Publikums aufrechterhalten und steigern. Unser System interagiert automatisch mit Inhalten auf Ihrer Pinnwand: Es kann Beiträge liken oder retweeten, interessante Tweets kommentieren oder gemäß festgelegten Parametern auf Inhalte reagieren. Alles geschieht systematisch und ohne Aufwand Ihrerseits. Wir passen den Umfang der täglichen Aktivitäten an die Größe Ihres Profils an – sowohl kleinere Konten als auch große Profile profitieren proportional zu ihren Bedürfnissen. Das Ergebnis? Ihre Follower sehen, dass Sie ständig präsent und aktiv sind, was Loyalität und Interesse an Ihrer Marke aufbaut."
+      },
+      "observation": {
+        "title": "Beobachtung – Überwachung und Förderung von Erwähnungen über Sie",
+        "content": "Verpassen Sie nie wieder, was andere online über Sie sagen! Die Beobachtungsfunktion überwacht ständig Erwähnungen Ihres Profils oder Projekts auf der X-Plattform. Wenn jemand Sie in einem Beitrag oder Kommentar erwähnt, erkennt unser System dies automatisch und verstärkt diese Erwähnung gemäß festgelegten Parametern. Wenn jemand Ihren Service lobt oder eine Frage mit Ihrem Namen stellt, sorgen wir dafür, dass dies von möglichst vielen Personen gesehen wird – durch Likes, Reposts oder positive Reaktionen erhöhen wir die Reichweite dieser Diskussion. Auf diese Weise bauen Sie ein breiteres Bewusstsein für Ihre Marke auf: Jede positive Meinung oder jeder Kommentar über Sie wird angemessen hervorgehoben. Es ist, als hätten Sie einen persönlichen Reputationswächter in sozialen Medien, der rund um die Uhr wacht und gute Worte über Sie fördert."
+      },
+      "commentBoost": {
+        "title": "Kunden-Kommentar-Boost – Größere Sichtbarkeit für Ihre Antworten",
+        "content": "Nehmen Sie aktiv an Diskussionen auf Twitter teil? Dank unserer Kommentar-Boost-Funktion erhalten Ihre Antworten unter den Beiträgen anderer die Aufmerksamkeit, die sie verdienen. Sobald Sie einen Kommentar unter dem Eintrag einer Person hinzufügen, erhöht das System automatisch dessen Sichtbarkeit. Sie erhalten zusätzliche Likes und Interaktionen, die Ihren Kommentar im Thread nach oben schieben – er wird für alle, die das Thema lesen, besser sichtbar. Dies ist eine ideale Lösung, wenn Sie möchten, dass Ihre Stimme auch in beliebten Diskussionen gehört wird. Ihre Meinungen und Expertenkommentare gehen nicht in der Menge unter, sondern fallen anderen Benutzern ins Auge und bauen Ihr Image als aktiver Gesprächsteilnehmer und Branchenexperte auf."
+      },
+      "search": {
+        "title": "Suche + Kommentare – Aktive Teilnahme an Branchengesprächen",
+        "content": "Erweitern Sie Ihre Reichweite über Ihr eigenes Profil hinaus. Die Funktion Suche + Kommentare macht Ihre Marke in weiteren Diskussionskreisen auf Twitter sichtbar. Unser System sucht automatisch nach Beiträgen und Threads, die mit Ihrer Branche oder Ihrem Tätigkeitsbereich zusammenhängen. Dann fügt es sogar mehrmals täglich positive, substanzielle Kommentare hinzu, die immer mit Ihrem Profilnamen versehen sind. Es ist, als würden Sie persönlich an vielen Gesprächen gleichzeitig teilnehmen – aber ohne Zeit dafür aufzuwenden. Jeder dieser Kommentare ist freundlich und themenbezogen, wodurch andere Benutzer Ihre Präsenz positiv wahrnehmen. Zusätzlich können wir auch diese Kommentare boosten, um sie gut sichtbar zu machen. Dadurch ziehen Sie die Aufmerksamkeit potenzieller Kunden dort auf sich, wo Diskussionen zu Ihrem Angebot stattfinden. Sie bauen Bekanntheit auf und zeigen, dass Sie ein aktiver Akteur in Ihrem Bereich sind."
+      },
+      "preciseBoost": {
+        "title": "Präziser Boost – Gezielte Verstärkung eines ausgewählten Beitrags",
+        "content": "Haben Sie einen wichtigen Beitrag, den Sie speziell bewerben möchten? Oder hat vielleicht jemand über Ihr Projekt geschrieben und Sie möchten, dass dies von möglichst vielen Personen gesehen wird? Präziser Boost ist eine Funktion, die genau für solche Aufgaben entwickelt wurde. Sie ermöglicht eine einmalige, dedizierte Verstärkung eines bestimmten Beitrags – egal ob es sich um Ihren eigenen Beitrag oder einen externen Tweet handelt, der Sie erwähnt. Sie müssen uns nur einen Link zum ausgewählten Beitrag geben, und unser System kümmert sich um den Rest: Gemäß Ihren Richtlinien liefern wir zum angegebenen Zeitpunkt zusätzliche Aufrufe, Likes und andere Interaktionen. Dies ist eine ideale Lösung, wenn Sie eine wichtige Kampagne organisieren, etwas Neues ankündigen oder eine Gelegenheit nutzen möchten, wenn jemand Sie in einem beliebten Thread erwähnt hat. Präziser Boost gibt Ihnen die Gewissheit, dass wichtige Inhalte für Sie genau dann ein breites Publikum erreichen, wenn Sie es brauchen."
+      }
+    },
+    "conclusion": "Unser System kombiniert all diese Funktionen zu einem kohärenten Ganzen und bietet umfassende und professionelle Unterstützung für Ihre Aktivität auf X (Twitter). Wir arbeiten subtil, aber effektiv – wir stärken Ihre Präsenz ohne aufdringliche Werbung, sodass Ihr Wachstum natürlich aussieht. Sie sparen Zeit und gewinnen die Gewissheit, dass Ihnen kein wichtiger Beitrag oder keine Erwähnung entgeht. Lassen Sie uns die technischen Aspekte der Promotion übernehmen, während Sie sich auf die Erstellung wertvoller Inhalte und den Aufbau von Kundenbeziehungen konzentrieren. Dank unseres Systems werden Ihre Beiträge weiter gehen, Ihre Gespräche lauter sein und Ihr Profil einflussreicher auf Twitter als je zuvor. Vertrauen Sie der Automatisierung und heben Sie Ihre Präsenz in sozialen Medien auf ein neues Niveau!",
+    "ctaTitle": "Bereit, Ihre X-Präsenz zu verbessern?",
+    "ctaButton": "Sehen Sie unsere X-Servicepläne"
   }
 }

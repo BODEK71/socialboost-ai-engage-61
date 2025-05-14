@@ -40,7 +40,8 @@
       "Lepsza widoczność w wyszukiwarkach i wyższe pozycjonowanie w trendach"
     ],
     "monitoringTitle": "Monitorowanie i analiza",
-    "monitoringDescription": "Otrzymuj szczegółowe analizy wzrostu i zaangażowania oraz raporty wydajności dostosowane do Twoich celów."
+    "monitoringDescription": "Otrzymuj szczegółowe analizy wzrostu i zaangażowania oraz raporty wydajności dostosowane do Twoich celów.",
+    "detailsLinkText": "Odkryj wszystkie funkcje naszego systemu wsparcia X"
   },
   "pricing": {
     "title": "Wybierz plan, który odpowiada Twoim potrzebom:",
@@ -87,5 +88,39 @@
     "subtitle": "Skontaktuj się z nami już dziś i zobacz, jak możemy pomóc Ci zwiększyć cyfrową widoczność!",
     "primaryButton": "Zacznij teraz",
     "secondaryButton": "Skontaktuj się z nami"
+  },
+  "details": {
+    "backButton": "Powrót do usług X",
+    "title": "Zwiększ swoją widoczność na X (Twitterze) z naszym systemem wsparcia",
+    "intro": "Czy Twoje posty na platformie X (Twitter) zasługują na większą uwagę? Nasz profesjonalny system automatycznego wsparcia pomoże Ci wzmocnić obecność Twojego projektu na Twitterze. Dzięki przyjaznym i inteligentnym funkcjom zapewniamy, że Twoje treści dotrą do szerszego grona odbiorców, a Twój profil będzie aktywny każdego dnia. Poznaj sześć kluczowych możliwości naszego systemu, które w prosty sposób zwiększą zasięg i zaangażowanie Twojego konta.",
+    "sections": {
+      "autoboost": {
+        "title": "Autoboost i Crawler – Automatyczne wzmacnianie nowych postów",
+        "content": "Kiedy tylko opublikujesz nowy post, nasz system natychmiast to zauważy i automatycznie go „boostuje", czyli promuje zgodnie z ustalonymi parametrami. Oznacza to, że Twoja treść nie pozostanie niezauważona – od razu zyskuje więcej wyświetleń, polubień i udostępnień. Unikalną cechą tej funkcji jest możliwość dodawania komentarzy do Twojego posta, przygotowanych na podstawie indywidualnych promptów (wytycznych). Dzięki temu pod Twoją publikacją może pojawić się pierwszy komentarz zachęcający do dyskusji. Co ważne, wszystkie interakcje są rozłożone w naturalny sposób w ramach określonych przedziałów czasowych – Twój post zyskuje na popularności subtelnie, ale skutecznie, budując wiarygodne zaangażowanie odbiorców."
+      },
+      "daily": {
+        "title": "Daily – Codzienne aktywności na Twoim profilu",
+        "content": "Pozwól, aby Twój profil tętnił życiem każdego dnia. Funkcja Daily dba o regularną aktywność na Twoim koncie – codziennie wykonuje zestaw działań, które utrzymują i zwiększają zaangażowanie odbiorców. Nasz system automatycznie wchodzi w interakcje z treściami na Twojej tablicy: może polubić lub podać dalej wpisy, skomentować interesujące Tweety czy zareagować na treści zgodnie z ustalonymi parametrami. Wszystko dzieje się systematycznie i bez wysiłku z Twojej strony. Skalę dziennych aktywności dostosujemy do wielkości Twojego profilu – zarówno mniejsze konta, jak i duże profile skorzystają z tej funkcji proporcjonalnie do swoich potrzeb. Rezultat? Twoi obserwujący widzą, że jesteś stale obecny i aktywny, co buduje lojalność i zainteresowanie Twoją marką."
+      },
+      "observation": {
+        "title": "Obserwacja – Monitorowanie i promowanie wzmianek o Tobie",
+        "content": "Nigdy więcej nie przegapisz tego, co inni mówią o Tobie w sieci! Funkcja Obserwacja stale monitoruje wzmianki o Twoim profilu lub projekcie na platformie X. Gdy ktoś wspomni o Tobie w poście lub komentarzu, nasz system automatycznie to wychwyci i wzmocni taką wzmiankę zgodnie z ustalonymi parametrami. Jeśli ktoś pochwali Twoją usługę lub zada pytanie z Twoją nazwą, my zadbamy, by zobaczyło to jak najwięcej osób – poprzez polubienia, reposty czy pozytywne reakcje zwiększymy zasięg tej dyskusji. Dzięki temu budujesz szerszą świadomość swojej marki: każda pozytywna opinia czy komentarz na Twój temat zostanie należycie wyeksponowana. To tak, jakby mieć osobistego strażnika reputacji w mediach społecznościowych, który czuwa 24/7 i promuje dobre słowo o Tobie."
+      },
+      "commentBoost": {
+        "title": "Boost komentarzy klienta – Większa widoczność Twoich odpowiedzi",
+        "content": "Aktywnie udzielasz się w dyskusjach na Twitterze? Dzięki naszej funkcji Boost komentarzy Twoje odpowiedzi pod cudzymi postami zyskają należną im uwagę. Gdy tylko dodasz komentarz pod czyimś wpisem, system automatycznie zwiększy jego widoczność. Otrzymasz dodatkowe polubienia i interakcje, które windują Twój komentarz wyżej w wątku – stanie się on bardziej widoczny dla wszystkich czytających dany temat. To idealne rozwiązanie, jeśli chcesz, aby Twój głos był słyszany nawet w popularnych dyskusjach. Twoje opinie i ekspercki komentarz nie zginą w tłumie, lecz przyciągną wzrok innych użytkowników, budując Twój wizerunek jako aktywnego uczestnika rozmów i eksperta w branży."
+      },
+      "search": {
+        "title": "Search + komentarze – Aktywne uczestnictwo w rozmowach branżowych",
+        "content": "Rozszerz swój zasięg poza własny profil. Funkcja Search + komentarze sprawia, że Twoja marka staje się widoczna w szerszych kręgach dyskusji na Twitterze. Nasz system automatycznie wyszukuje posty i wątki powiązane z Twoją branżą lub tematyką działalności. Następnie, nawet kilkadziesiąt razy dziennie, dodaje pod nimi pozytywne, merytoryczne komentarze, zawsze opatrzone nazwą Twojego profilu. To tak, jakbyś osobiście brał udział w wielu rozmowach jednocześnie – lecz bez poświęcania na to czasu. Każdy taki komentarz jest życzliwy i na temat, dzięki czemu inni użytkownicy postrzegają Twoją obecność pozytywnie. Dodatkowo te komentarze również możemy boostować, aby były dobrze widoczne. W efekcie przyciągasz uwagę potencjalnych klientów tam, gdzie toczy się dyskusja związana z Twoją ofertą. Budujesz rozpoznawalność i pokazujesz, że jesteś aktywnym graczem w swojej dziedzinie."
+      },
+      "preciseBoost": {
+        "title": "Precyzyjny boost – Celowane wzmocnienie wybranego posta",
+        "content": "Masz ważny post, który chcesz szczególnie wypromować? A może ktoś napisał o Twoim projekcie i zależy Ci, by zobaczyło to jak najwięcej osób? Precyzyjny boost to funkcja stworzona właśnie do takich zadań. Pozwala ona na jednorazowe, dedykowane wzmocnienie konkretnego wpisu – niezależnie od tego, czy jest to Twój własny post, czy zewnętrzny tweet zawierający wzmiankę o Tobie. Wystarczy, że przekażesz nam link do wybranego posta, a nasz system zajmie się resztą: zgodnie z Twoimi wytycznymi dostarczymy mu zastrzyk dodatkowych wyświetleń, polubień i innych interakcji we wskazanym momencie. To idealne rozwiązanie, gdy organizujesz ważną kampanię, ogłaszasz nowość lub chcesz skorzystać z okazji, że ktoś wspomniał o Tobie w popularnym wątku. Precyzyjny boost daje Ci pewność, że kluczowe dla Ciebie treści dotrą do szerokiego grona odbiorców dokładnie wtedy, gdy tego potrzebujesz."
+      }
+    },
+    "conclusion": "Nasz system łączy te wszystkie funkcje w spójną całość, oferując kompleksowe i profesjonalne wsparcie Twojej aktywności na X (Twitterze). Działamy subtelnie, lecz efektywnie – wzmacniamy Twoją obecność bez nachalnej reklamy, tak aby Twój wzrost wyglądał naturalnie. Oszczędzasz czas i zyskujesz pewność, że żaden ważny post czy wzmianka Ci nie umknie. Pozwól nam zadbać o techniczne aspekty promocji, podczas gdy Ty skupisz się na tworzeniu wartościowych treści i budowaniu relacji z klientami. Dzięki naszemu systemowi Twoje posty zajdą dalej, Twoje rozmowy będą głośniejsze, a Twój profil stanie się bardziej wpływowy na Twitterze niż kiedykolwiek wcześniej. Zaufaj automatyzacji i wynieś swoją obecność w mediach społecznościowych na nowy poziom!",
+    "ctaTitle": "Gotowy, aby wzmocnić swoją obecność na X?",
+    "ctaButton": "Zobacz nasze plany usług X"
   }
 }

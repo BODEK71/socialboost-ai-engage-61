@@ -40,7 +40,8 @@
       "Improved visibility in search engines and higher positioning in trends"
     ],
     "monitoringTitle": "Monitoring and Analysis",
-    "monitoringDescription": "Receive detailed growth and engagement analyses and performance reports tailored to your goals."
+    "monitoringDescription": "Receive detailed growth and engagement analyses and performance reports tailored to your goals.",
+    "detailsLinkText": "Discover all features of our X support system"
   },
   "pricing": {
     "title": "Choose a plan that fits your needs:",
@@ -87,5 +88,39 @@
     "subtitle": "Contact us today and see how we can help you increase your digital visibility!",
     "primaryButton": "Get Started Now",
     "secondaryButton": "Contact us"
+  },
+  "details": {
+    "backButton": "Back to X Services",
+    "title": "Increase Your Visibility on X (Twitter) with Our Support System",
+    "intro": "Do your posts on the X (Twitter) platform deserve more attention? Our professional automated support system will help you strengthen your project's presence on Twitter. With friendly and intelligent features, we ensure that your content reaches a wider audience and that your profile remains active every day. Discover six key capabilities of our system that will simply increase your reach and engagement.",
+    "sections": {
+      "autoboost": {
+        "title": "Autoboost & Crawler – Automatic Enhancement of New Posts",
+        "content": "As soon as you publish a new post, our system immediately notices it and automatically 'boosts' it, promoting it according to set parameters. This means your content won't go unnoticed – it immediately gains more views, likes, and shares. A unique feature is the ability to add comments to your post based on individual prompts (guidelines). This way, your publication can have an initial comment encouraging discussion. Importantly, all interactions are naturally distributed within specified time frames – your post gains popularity subtly yet effectively, building credible audience engagement."
+      },
+      "daily": {
+        "title": "Daily – Everyday Activities on Your Profile",
+        "content": "Let your profile pulse with life every day. The Daily feature maintains regular activity on your account – performing daily actions that maintain and increase audience engagement. Our system automatically interacts with content on your board: it can like or retweet posts, comment on interesting Tweets, or react to content according to set parameters. Everything happens systematically and without effort on your part. We'll adjust the scale of daily activities to the size of your profile – both smaller accounts and large profiles will benefit proportionally to their needs. The result? Your followers see that you're constantly present and active, building loyalty and interest in your brand."
+      },
+      "observation": {
+        "title": "Observation – Monitoring and Promoting Mentions About You",
+        "content": "Never miss what others are saying about you online again! The Observation feature constantly monitors mentions of your profile or project on the X platform. When someone mentions you in a post or comment, our system automatically detects it and strengthens such a mention according to set parameters. If someone praises your service or asks a question with your name, we'll make sure as many people as possible see it – through likes, reposts, or positive reactions, we'll increase the reach of this discussion. This way, you build broader awareness of your brand: every positive opinion or comment about you will be properly highlighted. It's like having a personal reputation guardian in social media, watching 24/7 and promoting good words about you."
+      },
+      "commentBoost": {
+        "title": "Customer Comment Boost – Greater Visibility for Your Responses",
+        "content": "Are you actively participating in discussions on Twitter? Thanks to our Comment Boost feature, your responses under others' posts will gain the attention they deserve. Whenever you add a comment under someone's entry, the system automatically increases its visibility. You'll receive additional likes and interactions that push your comment higher in the thread – making it more visible to everyone reading the topic. This is an ideal solution if you want your voice to be heard even in popular discussions. Your opinions and expert commentary won't get lost in the crowd but will catch the eye of other users, building your image as an active participant in conversations and an expert in the industry."
+      },
+      "search": {
+        "title": "Search + Comments – Active Participation in Industry Conversations",
+        "content": "Extend your reach beyond your own profile. The Search + Comments feature makes your brand visible in wider circles of discussion on Twitter. Our system automatically searches for posts and threads related to your industry or area of activity. Then, even dozens of times a day, it adds positive, substantive comments to them, always featuring your profile name. It's as if you were personally participating in many conversations simultaneously – but without spending time on it. Each such comment is friendly and on-topic, making other users perceive your presence positively. Additionally, we can also boost these comments to make them well-visible. As a result, you attract the attention of potential customers where discussions related to your offer are taking place. You build recognition and show that you are an active player in your field."
+      },
+      "preciseBoost": {
+        "title": "Precise Boost – Targeted Enhancement of a Selected Post",
+        "content": "Do you have an important post you want to promote specifically? Or maybe someone wrote about your project and you want as many people as possible to see it? Precise Boost is a feature created for exactly such tasks. It allows for a one-time, dedicated enhancement of a specific post – whether it's your own post or an external tweet containing a mention of you. All you need to do is give us a link to the selected post, and our system will take care of the rest: according to your guidelines, we'll deliver a shot of additional views, likes, and other interactions at the indicated moment. This is an ideal solution when you're organizing an important campaign, announcing something new, or want to take advantage of an opportunity when someone mentioned you in a popular thread. Precise Boost gives you confidence that key content for you will reach a wide audience exactly when you need it."
+      }
+    },
+    "conclusion": "Our system combines all these features into a coherent whole, offering comprehensive and professional support for your activity on X (Twitter). We operate subtly yet effectively – we strengthen your presence without pushy advertising, so that your growth looks natural. You save time and gain confidence that no important post or mention will escape your notice. Let us take care of the technical aspects of promotion while you focus on creating valuable content and building relationships with customers. Thanks to our system, your posts will go further, your conversations will be louder, and your profile will become more influential on Twitter than ever before. Trust automation and take your social media presence to a new level!",
+    "ctaTitle": "Ready to enhance your X presence?",
+    "ctaButton": "View our X service plans"
   }
 }

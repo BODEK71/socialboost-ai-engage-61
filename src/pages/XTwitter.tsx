@@ -1,11 +1,12 @@
 
 import React from "react";
 import { Button } from "@/components/ui/button";
-import { Check, ArrowRight, Twitter } from "lucide-react";
+import { Check, ArrowRight, Twitter, ExternalLink } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 const XTwitter = () => {
   const { t } = useTranslation("xtwitter");
@@ -96,6 +97,12 @@ const XTwitter = () => {
                   </li>
                 ))}
               </ul>
+              <div className="mt-6 p-4 bg-brand-blue/5 rounded-lg">
+                <Link to="/x-twitter/details" className="flex items-center gap-2 text-brand-blue hover:underline">
+                  <span>{t("howItWorks.detailsLinkText")}</span>
+                  <ExternalLink className="h-4 w-4" />
+                </Link>
+              </div>
             </Card>
             
             <div className="flex items-center justify-center">
