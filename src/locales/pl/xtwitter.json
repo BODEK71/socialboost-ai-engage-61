@@ -96,7 +96,7 @@
     "sections": {
       "autoboost": {
         "title": "Autoboost i Crawler – Automatyczne wzmacnianie nowych postów",
-        "content": "Kiedy tylko opublikujesz nowy post, nasz system natychmiast to zauważy i automatycznie go „boostuje", czyli promuje zgodnie z ustalonymi parametrami. Oznacza to, że Twoja treść nie pozostanie niezauważona – od razu zyskuje więcej wyświetleń, polubień i udostępnień. Unikalną cechą tej funkcji jest możliwość dodawania komentarzy do Twojego posta, przygotowanych na podstawie indywidualnych promptów (wytycznych). Dzięki temu pod Twoją publikacją może pojawić się pierwszy komentarz zachęcający do dyskusji. Co ważne, wszystkie interakcje są rozłożone w naturalny sposób w ramach określonych przedziałów czasowych – Twój post zyskuje na popularności subtelnie, ale skutecznie, budując wiarygodne zaangażowanie odbiorców."
+        "content": "Kiedy tylko opublikujesz nowy post, nasz system natychmiast to zauważy i automatycznie go \"boostuje\", czyli promuje zgodnie z ustalonymi parametrami. Oznacza to, że Twoja treść nie pozostanie niezauważona – od razu zyskuje więcej wyświetleń, polubień i udostępnień. Unikalną cechą tej funkcji jest możliwość dodawania komentarzy do Twojego posta, przygotowanych na podstawie indywidualnych promptów (wytycznych). Dzięki temu pod Twoją publikacją może pojawić się pierwszy komentarz zachęcający do dyskusji. Co ważne, wszystkie interakcje są rozłożone w naturalny sposób w ramach określonych przedziałów czasowych – Twój post zyskuje na popularności subtelnie, ale skutecznie, budując wiarygodne zaangażowanie odbiorców."
       },
       "daily": {
         "title": "Daily – Codzienne aktywności na Twoim profilu",
