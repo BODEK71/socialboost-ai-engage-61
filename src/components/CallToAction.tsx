@@ -8,7 +8,7 @@ const CallToAction = () => {
   const { t } = useTranslation("index");
 
   return (
-    <section className="py-16 px-4 md:px-8 bg-brand-purple-light text-white">
+    <section className="py-16 px-4 md:px-8 bg-brand-blue text-white">
       <div className="container mx-auto max-w-4xl text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-6">
           {t("cta.title")}
@@ -17,7 +17,7 @@ const CallToAction = () => {
           {t("cta.description")}
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <Button className="bg-white text-brand-purple-light hover:bg-white/90 text-base h-12 px-8">
+          <Button className="bg-white text-brand-blue hover:bg-white/90 text-base h-12 px-8">
             {t("cta.primary")}
             <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
