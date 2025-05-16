@@ -4,6 +4,7 @@ import { Check } from "lucide-react";
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 const PricingTier = ({
   title,
@@ -23,7 +24,7 @@ const PricingTier = ({
   monthlyText: string;
 }) => {
   return (
-    <Card className={`border ${popular ? "border-brand-purple shadow-lg shadow-brand-purple/10" : ""}`}>
+    <Card className={`border ${popular ? "border-brand-purple shadow-lg shadow-brand-purple/10" : ""} relative`}>
       {popular && (
         <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-brand-purple text-white px-4 py-1 rounded-full text-sm font-medium">
           {popularLabel}
@@ -31,7 +32,7 @@ const PricingTier = ({
       )}
       <CardHeader className="text-center pb-0">
         <h3 className="text-2xl font-bold flex items-center justify-center gap-2">
-          {title === "Growth Pro" ? (
+          {title === "Professional" ? (
             <span className="text-brand-purple">💎</span>
           ) : title === "Enterprise" ? (
             <span className="text-brand-purple">👑</span>
@@ -60,8 +61,11 @@ const PricingTier = ({
       <CardFooter>
         <Button 
           className={`w-full ${popular ? "btn-primary" : "bg-secondary hover:bg-secondary/80"}`}
+          asChild
         >
-          {ctaText}
+          <Link to="/pricing">
+            {ctaText}
+          </Link>
         </Button>
       </CardFooter>
     </Card>
@@ -69,25 +73,32 @@ const PricingTier = ({
 };
 
 const PricingTable = () => {
-  const { t } = useTranslation("index");
+  const { t } = useTranslation("pricing");
   
-  // Explicitly type the plans as an array of objects with the correct structure
   const plans = {
-    starter: t("pricing.plans.starter", { returnObjects: true }) as {
-      title: string;
-      price: string;
-      features: string[];
+    essentials: {
+      title: "Essentials Plan",
+      price: "0.44 ETH",
+      features: [
+        "200+ interactions per post (comments, likes, requotes)",
+        "300+ new followers per month",
+        "Comment boosting to increase reach",
+        "Highest-quality accounts",
+        "Dedicated support channel (Telegram)"
+      ]
     },
-    growthPro: t("pricing.plans.growthPro", { returnObjects: true }) as {
-      title: string;
-      price: string;
-      popular: string;
-      features: string[];
-    },
-    enterprise: t("pricing.plans.enterprise", { returnObjects: true }) as {
-      title: string;
-      price: string;
-      features: string[];
+    professional: {
+      title: "Professional Plan",
+      price: "0.89 ETH",
+      popular: "Most Popular!",
+      features: [
+        "500+ interactions per post (comments, likes, requotes)",
+        "750+ new followers per month",
+        "125+ external post interactions daily",
+        "Comment boosting to increase reach",
+        "Highest-quality accounts",
+        "Dedicated support channel (Telegram)"
+      ]
     }
   };
 
@@ -95,39 +106,30 @@ const PricingTable = () => {
     <section className="py-16 px-4 md:px-8">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-          {t("pricing.title")}
+          {t("title") || "Pricing Plans"}
         </h2>
         <p className="text-xl text-center text-muted-foreground mb-12 max-w-3xl mx-auto">
-          {t("pricing.description")}
+          {t("description") || "Choose a plan to boost your social media presence"}
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           <PricingTier
-            title={plans.starter.title}
-            price={plans.starter.price}
-            features={plans.starter.features}
+            title="Essentials Plan"
+            price="0.44 ETH"
+            features={plans.essentials.features}
             popularLabel=""
-            ctaText={t("pricing.choosePlan")}
-            monthlyText={t("pricing.perMonth")}
+            ctaText={t("viewDetails") || "View Details"}
+            monthlyText={t("perMonth") || "per month"}
           />
           
           <PricingTier
-            title={plans.growthPro.title}
-            price={plans.growthPro.price}
+            title="Professional Plan"
+            price="0.89 ETH"
             popular={true}
-            features={plans.growthPro.features}
-            popularLabel={plans.growthPro.popular}
-            ctaText={t("pricing.choosePlan")}
-            monthlyText={t("pricing.perMonth")}
-          />
-          
-          <PricingTier
-            title={plans.enterprise.title}
-            price={plans.enterprise.price}
-            features={plans.enterprise.features}
-            popularLabel=""
-            ctaText={t("pricing.choosePlan")}
-            monthlyText={t("pricing.perMonth")}
+            features={plans.professional.features}
+            popularLabel={plans.professional.popular}
+            ctaText={t("viewDetails") || "View Details"}
+            monthlyText={t("perMonth") || "per month"}
           />
         </div>
       </div>

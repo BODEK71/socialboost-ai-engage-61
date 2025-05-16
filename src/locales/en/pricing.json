@@ -1,0 +1,82 @@
+
+{
+  "title": "Pricing Plans",
+  "description": "Choose the right plan to boost your social media presence",
+  "perMonth": "per month",
+  "viewDetails": "View Details",
+  "choosePlan": "Choose Plan",
+  "contactUs": "Contact Us",
+  "summaryTitle": "SUMMARY",
+  "pricingTitle": "PRICING",
+  "mostPopular": "MOST POPULAR!",
+  "readyToStart": "Ready to Boost Your Social Media Presence?",
+  "getStarted": "Get started today with our proven strategies to increase engagement and reach.",
+  "services": {
+    "boostPosts": {
+      "title": "Boost Every Single of Your Posts!",
+      "description": "Automatically detect all of your new posts and immediately boost them to maximize their visibility and reach, ensuring they gain traction quickly and effectively."
+    },
+    "searchInteract": {
+      "title": "Search For and Interact with Relevant Posts",
+      "description": "Every day, we proactively search for and interact with relevant POSTS users and projects, strategically promoting your project through targeted comments. This approach helps us reach new audiences who may not yet be familiar with your brand."
+    },
+    "fullSupport": {
+      "title": "Full Support",
+      "description": "We provide comprehensive support by setting up a dedicated Telegram (or other) group where we can collaborate, exchange insights, and stay up-to-date on the progress of your profile's promotion in real-time."
+    }
+  },
+  "plans": {
+    "essentials": {
+      "name": "Essentials Plan",
+      "price": "0.44 ETH",
+      "features": [
+        "Interactions with every post (comments, likes, requotes) - 200+/post",
+        "New followers - 300+/month",
+        "Search for and comment on external posts - 50+/day",
+        "Boost our comments (replies, likes, etc.) to increase reach",
+        "Highest-quality accounts",
+        "Access to a dedicated support channel (Telegram)"
+      ]
+    },
+    "professional": {
+      "name": "Professional Plan",
+      "price": "0.89 ETH",
+      "popular": "Most Popular!",
+      "features": [
+        "Interactions with every post (comments, likes, requotes) - 500+/post",
+        "New followers - 750+/month",
+        "Search for and comment on external posts - 125+/day",
+        "Boost our comments (replies, likes, etc.) to increase reach",
+        "Highest-quality accounts",
+        "Access to a dedicated support channel (Telegram)"
+      ]
+    }
+  },
+  "benefits": {
+    "title": "How We Boost Your Social Media Presence",
+    "items": [
+      {
+        "title": "Your Project's Profile",
+        "description": "We automatically detect all of your new posts and immediately boost them to maximize their visibility and reach, ensuring they gain traction quickly and effectively."
+      },
+      {
+        "title": "Full support for every post",
+        "description": "Each post is carefully supported by automatic likes, reposts, comments, and bookmarks, amplifying engagement and driving continuous interaction across the platform."
+      },
+      {
+        "title": "We know where your audience is",
+        "description": "Our services go beyond just your posts; we proactively search for relevant content within your project's niche and engage with those posts to broaden your influence and connect with a wider audience."
+      },
+      {
+        "title": "Organic growth, full security",
+        "description": "Through our consistent efforts, your project will experience steady, organic growth, allowing it to expand naturally and reach new heights each day."
+      }
+    ]
+  },
+  "twitterSection": {
+    "title": "THE MOST EFFECTIVE PROMOTION FOR YOUR CRYPTO PROJECT ON",
+    "description1": "We provide advanced, fully automated solutions for boosting your Twitter posts, designed to significantly enhance engagement and visibility. We use advanced AI, and all activities are highly natural and safe.",
+    "description2": "All of our accounts on X (over 2,000) have been established for many years, with some dating back to 2009. Unlike many other services that rely on new or low-quality accounts, we utilize seasoned profiles, making our actions highly effective while minimizing the risk of bans or detection, ensuring the safety of your brand.",
+    "learnMoreButton": "Learn More About X Promotion"
+  }
+}
