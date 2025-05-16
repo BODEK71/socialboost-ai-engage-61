@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
-import { Telegram } from "lucide-react";
+import { MessageSquare } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Contact = () => {
@@ -42,7 +42,7 @@ const Contact = () => {
               </div>
               <div className="text-center p-6 bg-white rounded-lg shadow">
                 <div className="w-12 h-12 mx-auto mb-4 bg-brand-blue-light rounded-full flex items-center justify-center">
-                  <Telegram className="text-white" />
+                  <MessageSquare className="text-white" />
                 </div>
                 <h3 className="text-xl font-semibold mb-2">{t("telegramTitle")}</h3>
                 <p className="text-gray-600">{t("telegramUsername")}</p>
@@ -51,7 +51,7 @@ const Contact = () => {
                   className="mt-3"
                   onClick={() => window.open("https://t.me/xboostmarketing", "_blank")}
                 >
-                  <Telegram className="mr-2 h-4 w-4" />
+                  <MessageSquare className="mr-2 h-4 w-4" />
                   {t("telegramAction")}
                 </Button>
               </div>
