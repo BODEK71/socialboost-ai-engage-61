@@ -32,6 +32,9 @@ const BlogArticlePreview = ({
   excerpt: string; 
   id: string;
 }) => {
+  const { t } = useTranslation("blog");
+  const teamName = t("teamName", "zespół xBoost Marketing");
+  
   return (
     <Card className="mb-8 overflow-hidden">
       <div className="p-0">
@@ -50,12 +53,12 @@ const BlogArticlePreview = ({
               {title}
             </Link>
           </h3>
-          <p className="text-sm text-muted-foreground mb-4">{date} | {author}</p>
+          <p className="text-sm text-muted-foreground mb-4">{date} | {teamName}</p>
           <p className="text-muted-foreground mb-4">{excerpt}</p>
           <Link to={`/blog/${id}`}>
             <Button variant="link" className="p-0 h-auto font-medium text-brand-blue hover:text-brand-blue/80">
               <span className="flex items-center">
-                Read more <ArrowRight className="ml-2 h-4 w-4" />
+                {t("readMore")} <ArrowRight className="ml-2 h-4 w-4" />
               </span>
             </Button>
           </Link>

@@ -3,12 +3,13 @@
   "title": "xBoost Marketing Blog",
   "subtitle": "Expertenrat und Analysen aus der Welt der sozialen Medien",
   "latestArticles": "Neueste Artikel",
+  "teamName": "xBoost Marketing Team",
   "articles": [
     {
       "id": "increasing-reach",
       "title": "Wie Sie Ihre Social-Media-Reichweite in 60 Tagen um 300% steigern können",
       "date": "10. Mai 2025",
-      "author": "Martha Johnson, Leiterin der Strategie",
+      "author": "xBoost Marketing Team",
       "excerpt": "Entdecken Sie bewährte Strategien, die unseren Kunden geholfen haben, ihre Social-Media-Reichweite in nur zwei Monaten zu verdreifachen. Echte Fallstudien und umsetzbare Ratschläge.",
       "content": [
         {
@@ -33,7 +34,7 @@
       "id": "algorithm-changes",
       "title": "Wichtige Algorithmus-Updates kommen im Q3 2025 auf alle Social-Media-Plattformen",
       "date": "27. April 2025",
-      "author": "John Smith, KI- und Algorithmus-Spezialist",
+      "author": "xBoost Marketing Team",
       "excerpt": "Exklusive Einblicke in bevorstehende Algorithmus-Änderungen auf wichtigen Plattformen und wie Sie Ihre Content-Strategie vorbereiten können, um sichtbar zu bleiben.",
       "content": [
         {
@@ -58,7 +59,7 @@
       "id": "content-strategy",
       "title": "Fortgeschrittenes Content-Strategie-Framework für plattformübergreifendes Wachstum",
       "date": "15. April 2025",
-      "author": "Alexandra Wilson, Content-Strategie-Direktorin",
+      "author": "xBoost Marketing Team",
       "excerpt": "Ein umfassendes Framework für die Entwicklung von Inhalten, die auf mehreren Plattformen gleichzeitig funktionieren und dabei die Markenkonsistenz wahren.",
       "content": [
         {

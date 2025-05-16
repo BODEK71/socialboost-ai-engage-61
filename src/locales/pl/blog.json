@@ -3,12 +3,13 @@
   "title": "xBoost Marketing Blog",
   "subtitle": "Eksperckie porady i analizy ze świata mediów społecznościowych",
   "latestArticles": "Najnowsze artykuły",
+  "teamName": "zespół xBoost Marketing",
   "articles": [
     {
       "id": "increasing-reach",
       "title": "Jak zwiększyć zasięg w mediach społecznościowych o 300% w 60 dni",
       "date": "10 maja 2025",
-      "author": "Marta Kowalska, Head of Strategy",
+      "author": "zespół xBoost Marketing",
       "excerpt": "Odkryj sprawdzone strategie, które pomogły naszym klientom potroić zasięg w mediach społecznościowych w zaledwie dwa miesiące. Rzeczywiste studia przypadków i praktyczne porady.",
       "content": [
         {
@@ -33,7 +34,7 @@
       "id": "algorithm-changes",
       "title": "Główne zmiany w algorytmach wszystkich platform społecznościowych w Q3 2025",
       "date": "27 kwietnia 2025",
-      "author": "Jan Nowak, Specjalista ds. AI i Algorytmów",
+      "author": "zespół xBoost Marketing",
       "excerpt": "Ekskluzywne informacje o nadchodzących zmianach algorytmów na głównych platformach i jak przygotować swoją strategię treści, aby utrzymać widoczność.",
       "content": [
         {
@@ -58,7 +59,7 @@
       "id": "content-strategy",
       "title": "Zaawansowana struktura strategii treści dla wieloplatformowego wzrostu",
       "date": "15 kwietnia 2025",
-      "author": "Aleksandra Wiśniewska, Dyrektor Strategii Treści",
+      "author": "zespół xBoost Marketing",
       "excerpt": "Kompleksowa struktura dla rozwoju treści, które działają na wielu platformach jednocześnie, zachowując spójność marki.",
       "content": [
         {

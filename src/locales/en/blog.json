@@ -3,12 +3,13 @@
   "title": "xBoost Marketing Blog",
   "subtitle": "Expert advice and analysis from the world of social media",
   "latestArticles": "Latest Articles",
+  "teamName": "xBoost Marketing Team",
   "articles": [
     {
       "id": "increasing-reach",
       "title": "How To Increase Your Social Media Reach by 300% in 60 Days",
       "date": "May 10, 2025",
-      "author": "Martha Johnson, Head of Strategy",
+      "author": "xBoost Marketing Team",
       "excerpt": "Discover proven strategies that helped our clients triple their social media reach in just two months. Real case studies and actionable advice.",
       "content": [
         {
@@ -33,7 +34,7 @@
       "id": "algorithm-changes",
       "title": "Major Algorithm Updates Coming to All Social Platforms in Q3 2025",
       "date": "April 27, 2025",
-      "author": "John Smith, AI & Algorithm Specialist",
+      "author": "xBoost Marketing Team",
       "excerpt": "Exclusive insights into upcoming algorithm changes across major platforms and how to prepare your content strategy to maintain visibility.",
       "content": [
         {
@@ -58,7 +59,7 @@
       "id": "content-strategy",
       "title": "Advanced Content Strategy Framework for Multi-Platform Growth",
       "date": "April 15, 2025",
-      "author": "Alexandra Wilson, Content Strategy Director",
+      "author": "xBoost Marketing Team",
       "excerpt": "A comprehensive framework for developing content that performs across multiple platforms simultaneously while maintaining brand consistency.",
       "content": [
         {
