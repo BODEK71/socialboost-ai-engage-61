@@ -2,10 +2,10 @@
 {
   "pageTitle": "Kontakt",
   "pageDescription": "Nehmen Sie Kontakt mit unserem Team auf. Wir sind hier, um Ihre Fragen zu beantworten und Ihnen zu helfen, unsere Plattform zu nutzen, um Ihre Präsenz in sozialen Medien zu steigern.",
-  "officeTitle": "Büro",
-  "officeAddress": "123 Tech Straße, Warschau, Polen",
-  "phoneTitle": "Telefon",
   "emailTitle": "E-Mail",
+  "telegramTitle": "Telegram",
+  "telegramUsername": "@xboostmarketing",
+  "telegramAction": "Nachricht senden",
   "formNameLabel": "Name",
   "formNamePlaceholder": "Geben Sie Ihren Namen ein",
   "formEmailLabel": "E-Mail",

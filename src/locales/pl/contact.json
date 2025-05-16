@@ -2,10 +2,10 @@
 {
   "pageTitle": "Kontakt",
   "pageDescription": "Skontaktuj się z naszym zespołem. Jesteśmy tutaj, aby odpowiedzieć na Twoje pytania i pomóc Ci wykorzystać naszą platformę do zwiększenia obecności w mediach społecznościowych.",
-  "officeTitle": "Biuro",
-  "officeAddress": "ul. Technologiczna 123, Warszawa, Polska",
-  "phoneTitle": "Telefon",
   "emailTitle": "Email",
+  "telegramTitle": "Telegram",
+  "telegramUsername": "@xboostmarketing",
+  "telegramAction": "Napisz do nas",
   "formNameLabel": "Imię",
   "formNamePlaceholder": "Wprowadź swoje imię",
   "formEmailLabel": "Email",
