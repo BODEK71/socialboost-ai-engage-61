@@ -10,6 +10,23 @@ import { useTranslation } from "react-i18next";
 const FAQ = () => {
   const { t } = useTranslation("faq");
   
+  // Handle both array and object structures from translation files
+  const getSections = () => {
+    const sections = t("sections", { returnObjects: true });
+    // Check if sections is an array (English format)
+    if (Array.isArray(sections)) {
+      return sections;
+    }
+    // If it's an object (German/Polish format), convert to array
+    else if (sections && typeof sections === 'object') {
+      return Object.values(sections);
+    }
+    // Fallback to empty array if nothing is found
+    return [];
+  };
+  
+  const sections = getSections();
+  
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
@@ -22,7 +39,7 @@ const FAQ = () => {
           </p>
         </div>
 
-        {t("sections", { returnObjects: true }).map((section, sectionIndex) => (
+        {sections.map((section, sectionIndex) => (
           <Card className="p-6 mb-8" key={sectionIndex}>
             <h2 className="text-2xl font-bold mb-6 text-brand-blue">{section.title}</h2>
             
@@ -41,7 +58,7 @@ const FAQ = () => {
         
         <Card className="p-6">
           <p className="mt-8 text-center text-muted-foreground">
-            {t("stillHaveQuestions")}
+            {t("stillHaveQuestions") || t("contactPrompt")}
           </p>
         </Card>
       </div>
