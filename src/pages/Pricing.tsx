@@ -13,7 +13,7 @@ const PricingCard = ({
   features,
   ctaText,
   isPopular = false,
-  popularText
+  popularText = "" // Make popularText optional with default empty string
 }) => {
   return (
     <div className={`border rounded-lg p-8 ${isPopular ? 'border-brand-purple' : 'border-gray-200'} relative bg-white shadow-md`}>
@@ -147,6 +147,7 @@ const Pricing = () => {
               features={essentialsFeatures}
               ctaText={t("checkButton")}
               isPopular={false}
+              popularText="" // Add the popularText prop with an empty string
             />
             
             <PricingCard 
