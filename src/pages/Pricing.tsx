@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const PricingCard = ({
   title,
@@ -13,7 +14,7 @@ const PricingCard = ({
   features,
   ctaText,
   isPopular = false,
-  popularText = "" // Make popularText optional with default empty string
+  popularText = "" // Keep the optional popularText with default empty string
 }) => {
   return (
     <div className={`border rounded-lg p-8 ${isPopular ? 'border-brand-purple' : 'border-gray-200'} relative bg-white shadow-md`}>
@@ -50,8 +51,11 @@ const PricingCard = ({
             ? "bg-brand-purple hover:bg-brand-purple/90" 
             : "bg-gradient-to-r from-pink-500 to-rose-400 hover:from-pink-600 hover:to-rose-500"
         }`}
+        asChild
       >
-        {ctaText}
+        <Link to="/kontakt">
+          {ctaText}
+        </Link>
       </Button>
     </div>
   );
