@@ -14,6 +14,7 @@ import xTwitterEn from "./locales/en/xtwitter.json";
 import youtubeEn from "./locales/en/youtube.json";
 import web3En from "./locales/en/web3.json";
 import contactEn from "./locales/en/contact.json";
+import pricingEn from "./locales/en/pricing.json";
 
 // Polish translations
 import commonPl from "./locales/pl/common.json";
@@ -51,7 +52,8 @@ i18n
         xtwitter: xTwitterEn,
         youtube: youtubeEn,
         web3: web3En,
-        contact: contactEn
+        contact: contactEn,
+        pricing: pricingEn
       },
       pl: {
         common: commonPl,

@@ -62,6 +62,11 @@ const Navbar = () => {
               </NavigationMenuContent>
             </NavigationMenuItem>
             <NavigationMenuItem>
+              <Link to="/pricing" className={navigationMenuTriggerStyle()}>
+                {t("pricing")}
+              </Link>
+            </NavigationMenuItem>
+            <NavigationMenuItem>
               <Link to="/blog" className={navigationMenuTriggerStyle()}>
                 {t("blog")}
               </Link>

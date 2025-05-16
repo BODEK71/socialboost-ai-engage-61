@@ -4,76 +4,113 @@ import { Check } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
+
+const PricingCard = ({
+  title,
+  price,
+  perMonth,
+  features,
+  ctaText,
+  isPopular = false,
+  popularText
+}) => {
+  return (
+    <div className={`border rounded-lg p-8 ${isPopular ? 'border-brand-purple' : 'border-gray-200'} relative bg-white shadow-md`}>
+      {isPopular && (
+        <div className="absolute top-0 right-5 transform -translate-y-1/2 bg-brand-purple text-white px-4 py-1 rounded-full text-sm font-medium">
+          {popularText}
+        </div>
+      )}
+      <div className="flex flex-col items-center text-center mb-6">
+        <div className="flex items-center mb-4">
+          <span className={`text-2xl mr-2 ${isPopular ? 'text-brand-purple' : 'text-pink-500'}`}>
+            {isPopular ? '💎' : '🚀'}
+          </span>
+          <h3 className="text-2xl font-bold">{title}</h3>
+        </div>
+        <div className="mb-2">
+          <p className="text-4xl font-bold">{price}</p>
+          <p className="text-gray-500">{perMonth}</p>
+        </div>
+      </div>
+      
+      <div className="space-y-4 mb-8">
+        {features.map((feature, index) => (
+          <div key={index} className="flex items-start">
+            <Check className={`h-5 w-5 mr-3 mt-0.5 flex-shrink-0 ${isPopular ? 'text-brand-purple' : 'text-pink-500'}`} />
+            <p>{feature}</p>
+          </div>
+        ))}
+      </div>
+      
+      <Button 
+        className={`w-full ${
+          isPopular 
+            ? "bg-brand-purple hover:bg-brand-purple/90" 
+            : "bg-gradient-to-r from-pink-500 to-rose-400 hover:from-pink-600 hover:to-rose-500"
+        }`}
+      >
+        {ctaText}
+      </Button>
+    </div>
+  );
+};
 
 const Pricing = () => {
   const { t } = useTranslation("pricing");
 
-  const services = [
-    {
-      title: "Boost Every Single of Your Posts!",
-      description: "Automatically detect all of your new posts and immediately boost them to maximize their visibility and reach, ensuring they gain traction quickly and effectively."
-    },
-    {
-      title: "Search For and Interact with Relevant Posts",
-      description: "Every day, we proactively search for and interact with relevant POSTS users and projects, strategically promoting your project through targeted comments. This approach helps us reach new audiences who may not yet be familiar with your brand."
-    },
-    {
-      title: "Full Support",
-      description: "We provide comprehensive support by setting up a dedicated Telegram (or other) group where we can collaborate, exchange insights, and stay up-to-date on the progress of your profile's promotion in real-time."
-    }
+  const essentialsFeatures = [
+    "200+ interactions per post (comments, likes, requotes)",
+    "300+ new followers per month", 
+    "Comment boosting to increase reach",
+    "Highest-quality accounts",
+    "Dedicated support channel (Telegram)"
+  ];
+  
+  const professionalFeatures = [
+    "500+ interactions per post (comments, likes, requotes)",
+    "750+ new followers per month",
+    "125+ external post interactions daily",
+    "Comment boosting to increase reach",
+    "Highest-quality accounts",
+    "Dedicated support channel (Telegram)"
   ];
 
-  const plans = [
+  const services = [
     {
-      name: "Essentials Plan",
-      price: "0.44 ETH",
-      features: [
-        "Interactions with every post (comments, likes, requotes) - 200+/post",
-        "New followers - 300+/month",
-        "Search for and comment on external posts - 50+/day",
-        "Boost our comments (replies, likes, etc.) to increase reach",
-        "Highest-quality accounts",
-        "Access to a dedicated support channel (Telegram)"
-      ],
-      recommended: false
+      title: t("services.boostPosts.title"),
+      description: t("services.boostPosts.description")
     },
     {
-      name: "Professional Plan",
-      price: "0.89 ETH",
-      features: [
-        "Interactions with every post (comments, likes, requotes) - 500+/post",
-        "New followers - 750+/month",
-        "Search for and comment on external posts - 125+/day",
-        "Boost our comments (replies, likes, etc.) to increase reach",
-        "Highest-quality accounts",
-        "Access to a dedicated support channel (Telegram)"
-      ],
-      recommended: true
+      title: t("services.searchInteract.title"),
+      description: t("services.searchInteract.description")
+    },
+    {
+      title: t("services.fullSupport.title"),
+      description: t("services.fullSupport.description")
     }
   ];
 
   const benefitsData = [
     {
-      title: "Your Project's Profile",
-      description: "We automatically detect all of your new posts and immediately boost them to maximize their visibility and reach, ensuring they gain traction quickly and effectively.",
+      title: t("benefits.items.0.title"),
+      description: t("benefits.items.0.description"),
       icon: "🔵"
     },
     {
-      title: "Full support for every post",
-      description: "Each post is carefully supported by automatic likes, reposts, comments, and bookmarks, amplifying engagement and driving continuous interaction across the platform.",
+      title: t("benefits.items.1.title"),
+      description: t("benefits.items.1.description"),
       icon: "🔴"
     },
     {
-      title: "We know where your audience is",
-      description: "Our services go beyond just your posts; we proactively search for relevant content within your project's niche and engage with those posts to broaden your influence and connect with a wider audience.",
+      title: t("benefits.items.2.title"),
+      description: t("benefits.items.2.description"),
       icon: "🟡"
     },
     {
-      title: "Organic growth, full security",
-      description: "Through our consistent efforts, your project will experience steady, organic growth, allowing it to expand naturally and reach new heights each day.",
+      title: t("benefits.items.3.title"),
+      description: t("benefits.items.3.description"),
       icon: "🔵"
     }
   ];
@@ -86,10 +123,41 @@ const Pricing = () => {
       <section className="py-16 px-4 md:px-8 bg-gradient-to-br from-brand-blue to-brand-blue-light/60 text-white">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Pricing Plans</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">{t("title")}</h1>
             <p className="text-xl max-w-3xl mx-auto">
-              Choose the right plan to boost your social media presence and engagement
+              {t("description")}
             </p>
+          </div>
+        </div>
+      </section>
+      
+      {/* Pricing Cards Section - Horizontal Layout */}
+      <section className="py-16 px-4 md:px-8">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold">{t("title")}</h2>
+            <p className="text-xl text-gray-600 mt-4">{t("description")}</p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <PricingCard 
+              title="Essentials Plan"
+              price="0.44 ETH"
+              perMonth={t("perMonth")}
+              features={essentialsFeatures}
+              ctaText={t("checkButton")}
+              isPopular={false}
+            />
+            
+            <PricingCard 
+              title="Professional Plan"
+              price="0.89 ETH"
+              perMonth={t("perMonth")}
+              features={professionalFeatures}
+              ctaText={t("checkButton")}
+              isPopular={true}
+              popularText={t("mostPopular")}
+            />
           </div>
         </div>
       </section>
@@ -99,7 +167,7 @@ const Pricing = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <h2 className="text-3xl font-bold mb-8">SUMMARY</h2>
+              <h2 className="text-3xl font-bold mb-8">{t("summaryTitle")}</h2>
               
               {services.map((service, index) => (
                 <div key={index} className="mb-8">
@@ -115,44 +183,6 @@ const Pricing = () => {
                 </div>
               ))}
             </div>
-            
-            <div>
-              <h2 className="text-3xl font-bold mb-8">PRICING</h2>
-              
-              <div className="space-y-6">
-                {plans.map((plan, index) => (
-                  <Card key={index} className={`overflow-hidden ${plan.recommended ? 'border-brand-purple' : ''}`}>
-                    {plan.recommended && (
-                      <div className="bg-brand-purple text-white text-center py-1 font-medium">
-                        MOST POPULAR!
-                      </div>
-                    )}
-                    <CardHeader>
-                      <h3 className="text-2xl font-bold">{plan.name}</h3>
-                      <div className="flex items-center gap-2">
-                        <p className="text-3xl font-bold">{plan.price}</p>
-                        <span className="text-muted-foreground">/month</span>
-                      </div>
-                    </CardHeader>
-                    <CardContent>
-                      <ul className="space-y-2">
-                        {plan.features.map((feature, fIndex) => (
-                          <li key={fIndex} className="flex items-start gap-2">
-                            <Check className="h-5 w-5 text-brand-purple flex-shrink-0 mt-0.5" />
-                            <span>{feature}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </CardContent>
-                    <CardFooter>
-                      <Button className={`w-full ${plan.recommended ? 'bg-brand-purple hover:bg-brand-purple/90' : ''}`}>
-                        Choose Plan
-                      </Button>
-                    </CardFooter>
-                  </Card>
-                ))}
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -160,7 +190,7 @@ const Pricing = () => {
       {/* Benefits Section */}
       <section className="py-16 px-4 md:px-8">
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-3xl font-bold mb-12 text-center">How We Boost Your Social Media Presence</h2>
+          <h2 className="text-3xl font-bold mb-12 text-center">{t("benefits.title")}</h2>
           
           <div className="relative">
             <div className="absolute top-1/2 left-0 right-0 h-1 bg-gray-200 transform -translate-y-1/2 hidden md:block"></div>
@@ -191,7 +221,7 @@ const Pricing = () => {
           <div className="p-6 md:p-12 border rounded-xl bg-white">
             <div className="flex flex-col md:flex-row gap-8 items-center">
               <div className="md:w-1/3 text-center md:text-left">
-                <h3 className="text-2xl font-bold mb-4">THE MOST EFFECTIVE PROMOTION FOR YOUR CRYPTO PROJECT ON</h3>
+                <h3 className="text-2xl font-bold mb-4">{t("twitterSection.title")}</h3>
                 <div className="w-48 h-48 mx-auto md:mx-0">
                   <svg viewBox="0 0 24 24" aria-hidden="true" className="w-full h-full">
                     <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" fill="currentColor"></path>
@@ -201,16 +231,16 @@ const Pricing = () => {
               
               <div className="md:w-2/3">
                 <p className="text-lg mb-4">
-                  We provide advanced, fully automated solutions for boosting your Twitter posts, designed to significantly enhance engagement and visibility. We use <strong>advanced AI</strong>, and all activities are <strong>highly natural and safe</strong>.
+                  {t("twitterSection.description1")}
                 </p>
                 
                 <p className="text-lg mb-4">
-                  All of our accounts on X (<strong>over 2,000</strong>) have been established for many years, with some dating back to 2009. Unlike many other services that rely on new or low-quality accounts, we utilize <strong>seasoned profiles</strong>, making our actions <strong>highly effective</strong> while minimizing the risk of bans or detection, ensuring the <strong>safety of your brand</strong>.
+                  {t("twitterSection.description2")}
                 </p>
                 
                 <div className="flex justify-center md:justify-end">
                   <Button className="bg-black text-white hover:bg-black/90">
-                    Learn More About X Promotion
+                    {t("twitterSection.learnMoreButton")}
                   </Button>
                 </div>
               </div>
@@ -222,16 +252,16 @@ const Pricing = () => {
       {/* CTA Section */}
       <section className="py-16 px-4 md:px-8 bg-brand-blue text-white">
         <div className="container mx-auto max-w-4xl text-center">
-          <h2 className="text-3xl font-bold mb-6">Ready to Boost Your Social Media Presence?</h2>
+          <h2 className="text-3xl font-bold mb-6">{t("readyToStart")}</h2>
           <p className="text-xl mb-8 opacity-90">
-            Get started today with our proven strategies to increase engagement and reach.
+            {t("getStarted")}
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Button className="bg-white text-brand-blue hover:bg-white/90">
-              Choose Your Plan
+              {t("choosePlan")}
             </Button>
             <Button variant="outline" className="border-white text-white hover:bg-white/10">
-              Contact Us
+              {t("contactUs")}
             </Button>
           </div>
         </div>
