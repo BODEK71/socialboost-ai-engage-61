@@ -61,6 +61,7 @@ const Pricing = () => {
   const { t } = useTranslation("pricing");
 
   const essentialsFeatures = [
+    "Access to X (Twitter) Platform only",
     "200+ interactions per post (comments, likes, requotes)",
     "300+ new followers per month", 
     "Comment boosting to increase reach",
@@ -69,6 +70,7 @@ const Pricing = () => {
   ];
   
   const professionalFeatures = [
+    "Access to X (Twitter), YouTube and WEB3 Platforms",
     "500+ interactions per post (comments, likes, requotes)",
     "750+ new followers per month",
     "125+ external post interactions daily",
