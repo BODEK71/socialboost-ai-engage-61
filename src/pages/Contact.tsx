@@ -49,7 +49,7 @@ const Contact = () => {
                 <Button 
                   variant="outline" 
                   className="mt-3"
-                  onClick={() => window.open("https://t.me/xboostmarketing", "_blank")}
+                  onClick={() => window.open("https://t.me/BoosterKeaton", "_blank")}
                 >
                   <MessageSquare className="mr-2 h-4 w-4" />
                   {t("telegramAction")}
