@@ -185,9 +185,9 @@ const XTwitter = () => {
                 </li>
               </ul>
               
-              <Button className="w-full bg-secondary hover:bg-secondary/80" asChild>
-                <Link to="/pricing">
-                  Choose plan
+              <Button className="w-full bg-gradient-to-r from-pink-500 to-rose-400 hover:from-pink-600 hover:to-rose-500 text-white" asChild>
+                <Link to="/contact">
+                  Buy
                 </Link>
               </Button>
             </Card>
@@ -253,8 +253,8 @@ const XTwitter = () => {
               </ul>
               
               <Button className="w-full bg-brand-blue hover:bg-brand-blue-light text-white" asChild>
-                <Link to="/pricing">
-                  Choose plan
+                <Link to="/contact">
+                  Buy
                 </Link>
               </Button>
             </Card>
