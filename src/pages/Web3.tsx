@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Check, ArrowRight } from "lucide-react";
@@ -6,6 +5,7 @@ import { Card } from "@/components/ui/card";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 const Web3 = () => {
   const { t } = useTranslation("web3");
@@ -148,91 +148,129 @@ const Web3 = () => {
             {t("pricing.subtitle")}
           </p>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <Card className="border p-6">
               <div className="mb-4">
                 <h3 className="text-xl font-bold flex items-center gap-2">
                   <span className="text-brand-purple">🚀</span>
-                  {t("pricing.plans.starter.name")}
+                  Essentials Plan
                 </h3>
                 <div className="mt-4 mb-6">
-                  <p className="text-3xl font-bold">{t("pricing.plans.starter.price")} zł</p>
-                  <p className="text-muted-foreground">{t("pricing.plans.starter.period")}</p>
+                  <p className="text-3xl font-bold">0.44 ETH</p>
+                  <p className="text-muted-foreground">per month</p>
                 </div>
               </div>
               
               <ul className="space-y-3 mb-6">
-                {t("pricing.plans.starter.features", { returnObjects: true }).map((feature, index) => (
-                  <li className="flex items-start" key={index}>
-                    <span className="mr-2 mt-1">
-                      <Check className="h-4 w-4 text-brand-purple" />
-                    </span>
-                    <span>{feature}</span>
-                  </li>
-                ))}
+                <li className="flex items-start">
+                  <span className="mr-2 mt-1">
+                    <Check className="h-4 w-4 text-brand-purple" />
+                  </span>
+                  <span>Access to X (Twitter) Platform only</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2 mt-1">
+                    <Check className="h-4 w-4 text-brand-purple" />
+                  </span>
+                  <span>200+ interactions per post (comments, likes, requotes)</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2 mt-1">
+                    <Check className="h-4 w-4 text-brand-purple" />
+                  </span>
+                  <span>300+ new followers per month</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2 mt-1">
+                    <Check className="h-4 w-4 text-brand-purple" />
+                  </span>
+                  <span>Comment boosting to increase reach</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2 mt-1">
+                    <Check className="h-4 w-4 text-brand-purple" />
+                  </span>
+                  <span>Highest-quality accounts</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2 mt-1">
+                    <Check className="h-4 w-4 text-brand-purple" />
+                  </span>
+                  <span>Dedicated support channel (Telegram)</span>
+                </li>
               </ul>
               
-              <Button className="w-full bg-secondary hover:bg-secondary/80">
-                {t("pricing.plans.starter.button")}
+              <Button className="w-full bg-secondary hover:bg-secondary/80" asChild>
+                <Link to="/pricing">
+                  Choose plan
+                </Link>
               </Button>
             </Card>
             
-            <Card className="border border-brand-purple shadow-lg shadow-brand-purple/10 p-6">
+            <Card className="border border-brand-purple shadow-lg shadow-brand-purple/10 p-6 relative">
               <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-brand-purple text-white px-4 py-1 rounded-full text-sm font-medium">
-                {t("pricing.plans.growthPro.badge")}
+                Most Popular!
               </div>
               <div className="mb-4">
                 <h3 className="text-xl font-bold flex items-center gap-2">
                   <span className="text-brand-purple">💎</span>
-                  {t("pricing.plans.growthPro.name")}
+                  Professional Plan
                 </h3>
                 <div className="mt-4 mb-6">
-                  <p className="text-3xl font-bold">{t("pricing.plans.growthPro.price")} zł</p>
-                  <p className="text-muted-foreground">{t("pricing.plans.growthPro.period")}</p>
+                  <p className="text-3xl font-bold">0.89 ETH</p>
+                  <p className="text-muted-foreground">per month</p>
                 </div>
               </div>
               
               <ul className="space-y-3 mb-6">
-                {t("pricing.plans.growthPro.features", { returnObjects: true }).map((feature, index) => (
-                  <li className="flex items-start" key={index}>
-                    <span className="mr-2 mt-1">
-                      <Check className="h-4 w-4 text-brand-purple" />
-                    </span>
-                    <span>{feature}</span>
-                  </li>
-                ))}
+                <li className="flex items-start">
+                  <span className="mr-2 mt-1">
+                    <Check className="h-4 w-4 text-brand-purple" />
+                  </span>
+                  <span>Access to X (Twitter), YouTube and WEB3 Platforms</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2 mt-1">
+                    <Check className="h-4 w-4 text-brand-purple" />
+                  </span>
+                  <span>500+ interactions per post (comments, likes, requotes)</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2 mt-1">
+                    <Check className="h-4 w-4 text-brand-purple" />
+                  </span>
+                  <span>750+ new followers per month</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2 mt-1">
+                    <Check className="h-4 w-4 text-brand-purple" />
+                  </span>
+                  <span>125+ external post interactions daily</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2 mt-1">
+                    <Check className="h-4 w-4 text-brand-purple" />
+                  </span>
+                  <span>Comment boosting to increase reach</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2 mt-1">
+                    <Check className="h-4 w-4 text-brand-purple" />
+                  </span>
+                  <span>Highest-quality accounts</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2 mt-1">
+                    <Check className="h-4 w-4 text-brand-purple" />
+                  </span>
+                  <span>Dedicated support channel (Telegram)</span>
+                </li>
               </ul>
               
-              <Button className="w-full btn-primary">
-                {t("pricing.plans.growthPro.button")}
-              </Button>
-            </Card>
-            
-            <Card className="border p-6">
-              <div className="mb-4">
-                <h3 className="text-xl font-bold flex items-center gap-2">
-                  <span className="text-brand-purple">👑</span>
-                  {t("pricing.plans.enterprise.name")}
-                </h3>
-                <div className="mt-4 mb-6">
-                  <p className="text-3xl font-bold">{t("pricing.plans.enterprise.price")} zł</p>
-                  <p className="text-muted-foreground">{t("pricing.plans.enterprise.period")}</p>
-                </div>
-              </div>
-              
-              <ul className="space-y-3 mb-6">
-                {t("pricing.plans.enterprise.features", { returnObjects: true }).map((feature, index) => (
-                  <li className="flex items-start" key={index}>
-                    <span className="mr-2 mt-1">
-                      <Check className="h-4 w-4 text-brand-purple" />
-                    </span>
-                    <span>{feature}</span>
-                  </li>
-                ))}
-              </ul>
-              
-              <Button className="w-full bg-secondary hover:bg-secondary/80">
-                {t("pricing.plans.enterprise.button")}
+              <Button className="w-full bg-brand-purple hover:bg-brand-purple/90 text-white" asChild>
+                <Link to="/pricing">
+                  Choose plan
+                </Link>
               </Button>
             </Card>
           </div>
