@@ -15,6 +15,7 @@ import BlogArticle from "./pages/BlogArticle";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import Pricing from "./pages/Pricing";
+import AISEO from "./pages/AISEO";
 
 const queryClient = new QueryClient();
 
@@ -36,6 +37,7 @@ const App = () => (
           <Route path="/kontakt" element={<Contact />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/pricing" element={<Pricing />} />
+          <Route path="/ai-seo" element={<AISEO />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

@@ -67,6 +67,11 @@ const Navbar = () => {
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
+              <Link to="/ai-seo" className={navigationMenuTriggerStyle()}>
+                AI SEO
+              </Link>
+            </NavigationMenuItem>
+            <NavigationMenuItem>
               <Link to="/blog" className={navigationMenuTriggerStyle()}>
                 {t("blog")}
               </Link>
