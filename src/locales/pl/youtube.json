@@ -1,0 +1,90 @@
+{
+  "heroTitle": "YouTube - Potężne Rozwiązanie do Zwiększenia Widoczności Twojej Treści",
+  "heroSubtitle": "Zwiększ zasięg i popraw pozycjonowanie swoich filmów w rekordowym czasie",
+  "heroButton": "Zacznij Teraz",
+  "heroCard": {
+    "title": "YouTube",
+    "description": "Nasz zaawansowany serwis automatyzacji YouTube został zaprojektowany, aby dramatycznie zwiększyć widoczność Twojej treści i poprawić jej pozycjonowanie w algorytmach platformy.",
+    "highlight": "Mamy sieć 3000+ aktywnych kont premium, które współpracują, aby zapewnić Twoim filmom natychmiastowy wzrost wyświetleń, zaangażowania i subskrypcji."
+  },
+  "featuresSection": {
+    "title": "Co wyróżnia nasze rozwiązanie YouTube?",
+    "features": [
+      {
+        "title": "90-100% Wskaźnik Ukończenia Filmów",
+        "description": "Nasze konta oglądają Twoją treść w całości, co drastycznie poprawia metryki zatrzymania widzów i katapultuje Twoje filmy w wynikach wyszukiwania."
+      },
+      {
+        "title": "Zaangażowanie Przyjazne Algorytmowi",
+        "description": "System generuje komentarze, lajki i udostępnienia w strategiczny sposób, który jest faworyzowany przez algorytmy YouTube."
+      },
+      {
+        "title": "Ugruntowana Historia Oglądania",
+        "description": "Każde konto ma bogate, autentyczne historie oglądania, czyniąc ich interakcje wysoce wiarygodnymi dla algorytmów YouTube."
+      },
+      {
+        "title": "Kompletne Bezpieczeństwo",
+        "description": "Nasze konta działają z unikalnymi cyfrowymi odciskami palców, zapewniając naturalny wzorzec zachowania."
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "Jak nasze rozwiązanie pomaga Twojemu kanałowi?",
+    "description": "Nasz system automatycznie wykrywa Twoje nowe filmy i uruchamia strategiczną kampanię zaangażowania.",
+    "resultsTitle": "Prawdziwe wyniki, które osiągają nasi klienci:",
+    "results": [
+      "200-400% wzrost wyświetleń w porównaniu ze standardowymi wynikami",
+      "Lepsze pozycje w wynikach wyszukiwania YouTube i rekomendacjach",
+      "Zwiększone organiczne zaangażowanie od prawdziwych użytkowników",
+      "Szybszy wzrost subskrypcji dzięki zwiększonej widoczności"
+    ],
+    "campaignTitle": "Kompleksowa Kampania",
+    "campaignDescription": "Organiczne wyświetlenia z wysokim wskaźnikiem ukończenia filmów, naturalnym tempem wzrostu, kontekstowymi komentarzami i strategicznymi lajkami."
+  },
+  "pricing": {
+    "title": "Wybierz odpowiedni plan dla rozwoju swojego kanału:",
+    "subtitle": "Wszystkie plany obejmują pełny dostęp do naszej platformy YouTube z różnymi poziomami wsparcia i zaangażowania.",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "price": "999",
+        "period": "miesięcznie",
+        "features": [
+          "Dostęp do 500 kont premium",
+          "Podstawowe wsparcie dla Twojej treści",
+          "Miesięczny raport wyników"
+        ],
+        "button": "Wybierz plan"
+      },
+      "growthPro": {
+        "name": "Growth Pro",
+        "badge": "Najbardziej Popularny",
+        "price": "2499",
+        "period": "miesięcznie",
+        "features": [
+          "Dostęp do 1500 kont premium",
+          "Zaawansowane analityki i raporty",
+          "Priorytetowe wsparcie"
+        ],
+        "button": "Wybierz plan"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "4999",
+        "period": "miesięcznie",
+        "features": [
+          "Pełna moc naszej sieci",
+          "Dedykowany zespół wsparcia 24/7",
+          "Pełna strategia rozwoju kanału"
+        ],
+        "button": "Wybierz plan"
+      }
+    }
+  },
+  "cta": {
+    "title": "Gotowy na transformację swojego kanału YouTube?",
+    "subtitle": "Skontaktuj się z nami już dziś i zobacz, jak możemy pomóc Ci przebić się przez zatłoczoną przestrzeń YouTube i dotrzeć do szerszej publiczności!",
+    "primaryButton": "Zacznij Teraz",
+    "secondaryButton": "Skontaktuj się z nami"
+  }
+}

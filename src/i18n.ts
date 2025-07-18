@@ -26,6 +26,9 @@ import blogPl from "./locales/pl/blog.json";
 import xTwitterPl from "./locales/pl/xtwitter.json";
 import contactPl from "./locales/pl/contact.json";
 import aiseoPl from "./locales/pl/aiseo.json";
+import pricingPl from "./locales/pl/pricing.json";
+import youtubePl from "./locales/pl/youtube.json";
+import web3Pl from "./locales/pl/web3.json";
 
 // German translations
 import commonDe from "./locales/de/common.json";
@@ -65,7 +68,10 @@ i18n
         blog: blogPl,
         xtwitter: xTwitterPl,
         contact: contactPl,
-        aiseo: aiseoPl
+        aiseo: aiseoPl,
+        pricing: pricingPl,
+        youtube: youtubePl,
+        web3: web3Pl
       },
       de: {
         common: commonDe,

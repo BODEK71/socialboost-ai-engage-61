@@ -1,0 +1,115 @@
+{
+  "heroTitle": "Platformy Web3 - Wzmocnij Swoją Cyfrową Obecność w Przestrzeni Blockchain",
+  "heroSubtitle": "Strategiczne zwiększenie zasięgu i wiarygodności w ekosystemie Web3",
+  "heroButton": "Zacznij Teraz",
+  "heroCard": {
+    "title": "Web3",
+    "description": "Nasz zaawansowany serwis automatyzacji platform Web3 został zaprojektowany, aby dynamicznie zwiększyć rozpoznawalność i autorytet Twojego projektu w przestrzeni blockchain.",
+    "highlight": "Z dumą oferujemy dostęp do sieci 3000+ aktywnych portfeli i kont, które strategicznie zwiększają widoczność Twojego projektu w całym ekosystemie Web3."
+  },
+  "featuresSection": {
+    "title": "Dlaczego nasze rozwiązanie Web3 przynosi wyjątkowe rezultaty?",
+    "features": [
+      {
+        "title": "Natychmiastowy Wzrost Rozpoznawalności",
+        "description": "Twoje inicjatywy blockchain zyskują znacznie większą widoczność w kluczowych społecznościach Web3."
+      },
+      {
+        "title": "Zwiększone Zaufanie Inwestorów",
+        "description": "Autentyczna aktywność wokół Twojego projektu buduje wiarygodność i przyciąga prawdziwych inwestorów."
+      },
+      {
+        "title": "Strategiczne Zaangażowanie",
+        "description": "Nasze konta generują wartościowe dyskusje i interakcje, które przyciągają nowych uczestników do ekosystemu."
+      },
+      {
+        "title": "Organiczna Dystrybucja",
+        "description": "Skoordynowane działania naszej sieci zwiększają zasięg Twoich komunikatów bez wzbudzania podejrzeń."
+      }
+    ]
+  },
+  "advancedFeatures": {
+    "title": "Zaawansowane Funkcje Naszego Systemu Web3",
+    "features": [
+      "3000+ autentycznych portfeli z rzeczywistymi historiami transakcji i aktywnością na platformach blockchain",
+      "150+ kont z web3ID na deBank budujących wiarygodność i zaufanie w ekosystemie",
+      "Profesjonalne blogowanie i tworzenie treści na mirror.xyz i innych platformach Web3",
+      "Strategiczne interakcje na forach, Discord, Telegram i innych kluczowych kanałach komunikacyjnych Web3"
+    ],
+    "howItWorksTitle": "Jak To Działa?",
+    "howItWorksDescription": "Nasz system automatycznie monitoruje aktywność Twojego projektu Web3 i strategicznie angażuje się poprzez:",
+    "howItWorksList": [
+      "Tworzenie wartościowych wątków dyskusyjnych",
+      "Generowanie autentycznej aktywności portfeli",
+      "Wspieranie Twoich ogłoszeń",
+      "Budowanie społeczności wokół projektu"
+    ]
+  },
+  "results": {
+    "title": "Rzeczywiste Wyniki dla Projektów Web3",
+    "metrics": [
+      {
+        "value": "250-500%",
+        "description": "Wzrost widoczności projektu w pierwszym miesiącu"
+      },
+      {
+        "value": "300%",
+        "description": "Wzrost autentycznych interakcji z projektem"
+      },
+      {
+        "value": "200%",
+        "description": "Wzrost aktywności społeczności na wszystkich platformach"
+      },
+      {
+        "value": "↑",
+        "description": "Znaczny wzrost zainteresowania inwestorów"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Wybierz idealny plan dla rozwoju swojego projektu Web3",
+    "subtitle": "Wszystkie plany obejmują pełny dostęp do naszej platformy z różnymi poziomami wsparcia i zaangażowania.",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "price": "999",
+        "period": "miesięcznie",
+        "features": [
+          "Dostęp do 500 portfeli i kont premium",
+          "Podstawowe wsparcie dla Twojego projektu",
+          "Miesięczne raporty efektywności"
+        ],
+        "button": "Wybierz plan"
+      },
+      "growthPro": {
+        "name": "Growth Pro",
+        "badge": "Najbardziej Popularny",
+        "price": "2499",
+        "period": "miesięcznie",
+        "features": [
+          "Dostęp do 1500 portfeli i kont premium",
+          "Zaawansowane analityki i raporty",
+          "Priorytetowe wsparcie techniczne"
+        ],
+        "button": "Wybierz plan"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "4999",
+        "period": "miesięcznie",
+        "features": [
+          "Pełna moc naszej sieci portfeli i kont",
+          "Dedykowany zespół wsparcia 24/7",
+          "Indywidualnie dopasowana strategia"
+        ],
+        "button": "Wybierz plan"
+      }
+    }
+  },
+  "cta": {
+    "title": "Gotowy na transformację swojej obecności w ekosystemie Web3?",
+    "subtitle": "Skontaktuj się z nami już dziś i zobacz, jak możemy pomóc Twojemu projektowi wyróżnić się w zatłoczonej przestrzeni blockchain i przyciągnąć wartościowych uczestników!",
+    "primaryButton": "Zacznij Teraz",
+    "secondaryButton": "Skontaktuj się z nami"
+  }
+}

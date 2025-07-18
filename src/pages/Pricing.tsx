@@ -64,24 +64,8 @@ const PricingCard = ({
 const Pricing = () => {
   const { t } = useTranslation("pricing");
 
-  const essentialsFeatures = [
-    "Access to X (Twitter) Platform only",
-    "200+ interactions per post (comments, likes, requotes)",
-    "300+ new followers per month", 
-    "Comment boosting to increase reach",
-    "Highest-quality accounts",
-    "Dedicated support channel (Telegram)"
-  ];
-  
-  const professionalFeatures = [
-    "Access to X (Twitter), YouTube and WEB3 Platforms",
-    "500+ interactions per post (comments, likes, requotes)",
-    "750+ new followers per month",
-    "125+ external post interactions daily",
-    "Comment boosting to increase reach",
-    "Highest-quality accounts",
-    "Dedicated support channel (Telegram)"
-  ];
+  const essentialsFeatures = t("plans.essentials.features", { returnObjects: true });
+  const professionalFeatures = t("plans.professional.features", { returnObjects: true });
 
   const services = [
     {
@@ -147,8 +131,8 @@ const Pricing = () => {
           
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             <PricingCard 
-              title="Essentials Plan"
-              price="0.44 ETH"
+              title={t("plans.essentials.name")}
+              price={t("plans.essentials.price")}
               perMonth={t("perMonth")}
               features={essentialsFeatures}
               ctaText={t("checkButton")}
@@ -157,8 +141,8 @@ const Pricing = () => {
             />
             
             <PricingCard 
-              title="Professional Plan"
-              price="0.89 ETH"
+              title={t("plans.professional.name")}
+              price={t("plans.professional.price")}
               perMonth={t("perMonth")}
               features={professionalFeatures}
               ctaText={t("checkButton")}

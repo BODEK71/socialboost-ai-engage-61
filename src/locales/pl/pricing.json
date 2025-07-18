@@ -1,0 +1,82 @@
+{
+  "title": "Plany Cenowe",
+  "description": "Wybierz odpowiedni plan, aby zwiększyć swoją obecność w mediach społecznościowych",
+  "perMonth": "miesięcznie",
+  "viewDetails": "Zobacz Szczegóły",
+  "checkButton": "Kup",
+  "choosePlan": "Wybierz Plan",
+  "contactUs": "Skontaktuj się z nami",
+  "summaryTitle": "PODSUMOWANIE",
+  "pricingTitle": "CENNIK",
+  "mostPopular": "NAJBARDZIEJ POPULARNY!",
+  "readyToStart": "Gotowy na Zwiększenie Obecności w Mediach Społecznościowych?",
+  "getStarted": "Zacznij już dziś z naszymi sprawdzonymi strategiami zwiększania zaangażowania i zasięgu.",
+  "services": {
+    "boostPosts": {
+      "title": "Wzmacniaj Każdy Swój Post!",
+      "description": "Automatycznie wykrywamy wszystkie Twoje nowe posty i natychmiast je wzmacniamy, aby zmaksymalizować ich widoczność i zasięg, zapewniając szybkie i skuteczne zdobycie popularności."
+    },
+    "searchInteract": {
+      "title": "Szukaj i Wchodź w Interakcje z Odpowiednimi Postami",
+      "description": "Każdego dnia proaktywnie szukamy i wchodzimy w interakcje z odpowiednimi postami użytkowników i projektów, strategicznie promując Twój projekt poprzez ukierunkowane komentarze. To podejście pomaga nam dotrzeć do nowych odbiorców, którzy mogą jeszcze nie znać Twojej marki."
+    },
+    "fullSupport": {
+      "title": "Pełne Wsparcie",
+      "description": "Zapewniamy kompleksowe wsparcie poprzez utworzenie dedykowanej grupy Telegram (lub innej), gdzie możemy współpracować, wymieniać spostrzeżenia i na bieżąco śledzić postępy w promocji Twojego profilu."
+    }
+  },
+  "plans": {
+    "essentials": {
+      "name": "Plan Podstawowy",
+      "price": "0.44 ETH",
+      "features": [
+        "Interakcje z każdym postem (komentarze, lajki, udostępnienia) - 200+/post",
+        "Nowi obserwatorzy - 300+/miesiąc",
+        "Szukanie i komentowanie zewnętrznych postów - 50+/dzień",
+        "Wzmacnianie naszych komentarzy (odpowiedzi, lajki itp.) w celu zwiększenia zasięgu",
+        "Konta najwyższej jakości",
+        "Dostęp do dedykowanego kanału wsparcia (Telegram)"
+      ]
+    },
+    "professional": {
+      "name": "Plan Profesjonalny",
+      "price": "0.89 ETH",
+      "popular": "Najbardziej Popularny!",
+      "features": [
+        "Interakcje z każdym postem (komentarze, lajki, udostępnienia) - 500+/post",
+        "Nowi obserwatorzy - 750+/miesiąc",
+        "Szukanie i komentowanie zewnętrznych postów - 125+/dzień",
+        "Wzmacnianie naszych komentarzy (odpowiedzi, lajki itp.) w celu zwiększenia zasięgu",
+        "Konta najwyższej jakości",
+        "Dostęp do dedykowanego kanału wsparcia (Telegram)"
+      ]
+    }
+  },
+  "benefits": {
+    "title": "Jak Wzmacniamy Twoją Obecność w Mediach Społecznościowych",
+    "items": [
+      {
+        "title": "Profil Twojego Projektu",
+        "description": "Automatycznie wykrywamy wszystkie Twoje nowe posty i natychmiast je wzmacniamy, aby zmaksymalizować ich widoczność i zasięg, zapewniając szybkie i skuteczne zdobycie popularności."
+      },
+      {
+        "title": "Pełne wsparcie dla każdego posta",
+        "description": "Każdy post jest starannie wspierany przez automatyczne lajki, udostępnienia, komentarze i dodawanie do zakładek, zwiększając zaangażowanie i napędzając ciągłe interakcje na platformie."
+      },
+      {
+        "title": "Wiemy, gdzie jest Twoja publiczność",
+        "description": "Nasze usługi wykraczają poza tylko Twoje posty; proaktywnie szukamy odpowiedniej treści w niszy Twojego projektu i angażujemy się w te posty, aby poszerzyć Twój wpływ i połączyć się z szerszą publicznością."
+      },
+      {
+        "title": "Organiczny wzrost, pełne bezpieczeństwo",
+        "description": "Dzięki naszym konsekwentnym działaniom, Twój projekt będzie doświadczać stałego, organicznego wzrostu, pozwalając mu rozwijać się naturalnie i codziennie osiągać nowe wysokości."
+      }
+    ]
+  },
+  "twitterSection": {
+    "title": "NAJSKUTECZNIEJSZA PROMOCJA TWOJEGO PROJEKTU KRYPTO NA",
+    "description1": "Zapewniamy zaawansowane, w pełni zautomatyzowane rozwiązania do wzmacniania Twoich postów na Twitterze, zaprojektowane, aby znacznie zwiększyć zaangażowanie i widoczność. Używamy zaawansowanej AI, a wszystkie działania są wysoce naturalne i bezpieczne.",
+    "description2": "Wszystkie nasze konta na X (ponad 2000) są ustanowione od wielu lat, niektóre sięgają 2009 roku. W przeciwieństwie do wielu innych usług, które polegają na nowych lub niskiej jakości kontach, wykorzystujemy doświadczone profile, czyniąc nasze działania wysoce skutecznymi przy jednoczesnym minimalizowaniu ryzyka banów lub wykrycia, zapewniając bezpieczeństwo Twojej marki.",
+    "learnMoreButton": "Dowiedz się więcej o promocji na X"
+  }
+}
