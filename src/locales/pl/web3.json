@@ -69,38 +69,32 @@
   "pricing": {
     "title": "Wybierz idealny plan dla rozwoju swojego projektu Web3",
     "subtitle": "Wszystkie plany obejmują pełny dostęp do naszej platformy z różnymi poziomami wsparcia i zaangażowania.",
+    "perMonth": "miesięcznie",
+    "mostPopular": "Najbardziej Popularny",
     "plans": {
-      "starter": {
-        "name": "Starter",
-        "price": "999",
-        "period": "miesięcznie",
+      "essentials": {
+        "name": "Plan Podstawowy",
+        "price": "0.44 ETH",
         "features": [
-          "Dostęp do 500 portfeli i kont premium",
-          "Podstawowe wsparcie dla Twojego projektu",
-          "Miesięczne raporty efektywności"
+          "Interakcje z każdym postem (komentarze, lajki, udostępnienia) - 200+/post",
+          "Nowi obserwatorzy - 300+/miesiąc",
+          "Szukanie i komentowanie zewnętrznych postów - 50+/dzień",
+          "Wzmacnianie naszych komentarzy (odpowiedzi, lajki itp.) w celu zwiększenia zasięgu",
+          "Konta najwyższej jakości",
+          "Dostęp do dedykowanego kanału wsparcia (Telegram)"
         ],
         "button": "Wybierz plan"
       },
-      "growthPro": {
-        "name": "Growth Pro",
-        "badge": "Najbardziej Popularny",
-        "price": "2499",
-        "period": "miesięcznie",
+      "professional": {
+        "name": "Plan Profesjonalny",
+        "price": "0.89 ETH",
         "features": [
-          "Dostęp do 1500 portfeli i kont premium",
-          "Zaawansowane analityki i raporty",
-          "Priorytetowe wsparcie techniczne"
-        ],
-        "button": "Wybierz plan"
-      },
-      "enterprise": {
-        "name": "Enterprise",
-        "price": "4999",
-        "period": "miesięcznie",
-        "features": [
-          "Pełna moc naszej sieci portfeli i kont",
-          "Dedykowany zespół wsparcia 24/7",
-          "Indywidualnie dopasowana strategia"
+          "Interakcje z każdym postem (komentarze, lajki, udostępnienia) - 500+/post",
+          "Nowi obserwatorzy - 750+/miesiąc",
+          "Szukanie i komentowanie zewnętrznych postów - 125+/dzień",
+          "Wzmacnianie naszych komentarzy (odpowiedzi, lajki itp.) w celu zwiększenia zasięgu",
+          "Konta najwyższej jakości",
+          "Dostęp do dedykowanego kanału wsparcia (Telegram)"
         ],
         "button": "Wybierz plan"
       }

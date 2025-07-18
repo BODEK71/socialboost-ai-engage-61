@@ -153,16 +153,16 @@ const Web3 = () => {
               <div className="mb-4">
                 <h3 className="text-xl font-bold flex items-center gap-2">
                   <span className="text-brand-purple">🚀</span>
-                  {t("pricing.plans.starter.name")}
+                  {t("pricing.plans.essentials.name")}
                 </h3>
                 <div className="mt-4 mb-6">
-                  <p className="text-3xl font-bold">{t("pricing.plans.starter.price")}</p>
-                  <p className="text-muted-foreground">{t("pricing.plans.starter.period")}</p>
+                  <p className="text-3xl font-bold">{t("pricing.plans.essentials.price")}</p>
+                  <p className="text-muted-foreground">{t("pricing.perMonth")}</p>
                 </div>
               </div>
               
               <ul className="space-y-3 mb-6">
-                {t("pricing.plans.starter.features", { returnObjects: true }).map((feature, index) => (
+                {t("pricing.plans.essentials.features", { returnObjects: true }).map((feature, index) => (
                   <li key={index} className="flex items-start">
                     <span className="mr-2 mt-1">
                       <Check className="h-4 w-4 text-brand-purple" />
@@ -174,28 +174,28 @@ const Web3 = () => {
               
               <Button className="w-full bg-gradient-to-r from-pink-500 to-rose-400 hover:from-pink-600 hover:to-rose-500 text-white" asChild>
                 <Link to="/contact">
-                  {t("pricing.plans.starter.button")}
+                  {t("pricing.plans.essentials.button")}
                 </Link>
               </Button>
             </Card>
             
             <Card className="border border-brand-purple shadow-lg shadow-brand-purple/10 p-6 relative">
               <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-brand-purple text-white px-4 py-1 rounded-full text-sm font-medium">
-                {t("pricing.plans.growthPro.badge")}
+                {t("pricing.mostPopular")}
               </div>
               <div className="mb-4">
                 <h3 className="text-xl font-bold flex items-center gap-2">
                   <span className="text-brand-purple">💎</span>
-                  {t("pricing.plans.growthPro.name")}
+                  {t("pricing.plans.professional.name")}
                 </h3>
                 <div className="mt-4 mb-6">
-                  <p className="text-3xl font-bold">{t("pricing.plans.growthPro.price")}</p>
-                  <p className="text-muted-foreground">{t("pricing.plans.growthPro.period")}</p>
+                  <p className="text-3xl font-bold">{t("pricing.plans.professional.price")}</p>
+                  <p className="text-muted-foreground">{t("pricing.perMonth")}</p>
                 </div>
               </div>
               
               <ul className="space-y-3 mb-6">
-                {t("pricing.plans.growthPro.features", { returnObjects: true }).map((feature, index) => (
+                {t("pricing.plans.professional.features", { returnObjects: true }).map((feature, index) => (
                   <li key={index} className="flex items-start">
                     <span className="mr-2 mt-1">
                       <Check className="h-4 w-4 text-brand-purple" />
@@ -207,7 +207,7 @@ const Web3 = () => {
               
               <Button className="w-full bg-brand-purple hover:bg-brand-purple/90 text-white" asChild>
                 <Link to="/contact">
-                  {t("pricing.plans.growthPro.button")}
+                  {t("pricing.plans.professional.button")}
                 </Link>
               </Button>
             </Card>
