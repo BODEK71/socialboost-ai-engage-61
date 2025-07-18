@@ -1,0 +1,392 @@
+{
+  "title": "AI SEO: Rewolucja w Optymalizacji dla Wyszukiwarek",
+  "subtitle": "Wykorzystujemy sztuczną inteligencję, aby przekształcić SEO w potężny kanał wzrostu dla firm B2B",
+  "results": {
+    "title": "Wyniki, które osiągnęli nasi klienci",
+    "traffic": "+427% wzrost ruchu organicznego",
+    "trafficTime": "w 6 miesięcy",
+    "conversions": "+285% więcej konwersji",
+    "conversionsSource": "z wyszukiwania organicznego",
+    "rankings": "+156% poprawa pozycji",
+    "rankingsContext": "w docelowych słowach kluczowych",
+    "timeSavings": "90% oszczędności czasu",
+    "timeSavingsContext": "przy tworzeniu treści",
+    "disclaimer": "Te liczby to nie błędy."
+  },
+  "testimonials": {
+    "title": "Co mówią nasi klienci",
+    "testimonial1": {
+      "quote": "Dzięki AI SEO osiągnęliśmy w 3 miesiące to, co tradycyjnymi metodami zajęłoby nam rok. Automatyzacja badań słów kluczowych i tworzenia treści całkowicie przekształciła nasz proces optymalizacji.",
+      "author": "Michael Johnson",
+      "position": "Head of Marketing w TechFlow"
+    },
+    "testimonial2": {
+      "quote": "Byliśmy sceptyczni wobec AI w SEO, ale wyniki mówią same za siebie. Nasz ruch organiczny wzrósł o 340%, a jakość treści pozostała na najwyższym poziomie.",
+      "author": "Sarah Chen",
+      "position": "CMO w SaaS Solutions"
+    },
+    "testimonial3": {
+      "quote": "AI SEO to przyszłość optymalizacji. W 6 miesięcy wygenerowaliśmy ponad 2 miliony dolarów przychodu z ruchu organicznego dzięki ich rozwiązaniom.",
+      "author": "David Rodriguez",
+      "position": "Founder w GrowthTech"
+    }
+  },
+  "services": {
+    "title": "Zbudujemy dla Ciebie nowoczesny system AI SEO",
+    "subtitle": "Każde zaangażowanie zaczyna się od analizy Twojej branży, konkurencji i celów biznesowych, aby stworzyć spersonalizowaną strategię AI SEO.",
+    "analysis": {
+      "title": "1. Analiza AI i Strategia",
+      "audit": {
+        "title": "Audyt AI:",
+        "items": [
+          "Analiza obecnej pozycji w wyszukiwarkach za pomocą zaawansowanych algorytmów",
+          "Identyfikacja luk w treści przez uczenie maszynowe",
+          "Prognozowanie trendów słów kluczowych z wykorzystaniem AI",
+          "Wywiad konkurencyjny z automatycznym raportowaniem"
+        ]
+      },
+      "strategy": {
+        "title": "Strategia AI SEO:",
+        "items": [
+          "Mapowanie słów kluczowych generowane przez AI",
+          "Optymalizacja pod wyszukiwanie głosowe i AI",
+          "Strategia E-A-T z wykorzystaniem AI",
+          "Predykcyjne planowanie treści"
+        ]
+      }
+    },
+    "implementation": {
+      "title": "2. Implementacja AI SEO",
+      "content": {
+        "title": "Automatyzacja Treści:",
+        "items": [
+          "Generowanie treści przez AI dostosowane do głosu marki",
+          "Automatyczna optymalizacja treści pod rankingi",
+          "Spersonalizowane treści dla różnych segmentów użytkowników",
+          "Automatycznie generowane znaczniki schema"
+        ]
+      },
+      "technical": {
+        "title": "Techniczna Optymalizacja AI:",
+        "items": [
+          "Automatyczne wykrywanie i naprawianie błędów technicznych",
+          "Optymalizacja Core Web Vitals z AI",
+          "Predykcyjne prognozowanie potrzeb crawlera",
+          "Automatyzowane strategie linkowania wewnętrznego"
+        ]
+      }
+    },
+    "monitoring": {
+      "title": "3. Monitorowanie AI i Analityka",
+      "reporting": {
+        "title": "Zaawansowane Raportowanie:",
+        "items": [
+          "Dashboardy w czasie rzeczywistym z insights AI",
+          "Predykcyjna analiza ruchu organicznego",
+          "Automatyczne alerty o zmianach pozycji",
+          "Śledzenie ROI z uczeniem maszynowym"
+        ]
+      },
+      "performance": {
+        "title": "Performance AI:",
+        "items": [
+          "Automatyczne zarządzanie stawkami w płatnym wyszukiwaniu",
+          "Predykcyjne modelowanie współczynnika konwersji",
+          "Analiza sentymentu treści konkurencji",
+          "Prognozowanie ruchu organicznego"
+        ]
+      }
+    },
+    "optimization": {
+      "title": "4. Optymalizacja i Skalowanie",
+      "learning": {
+        "title": "Ciągłe Uczenie Systemu:",
+        "items": [
+          "Automatyczne testowanie A/B treści",
+          "Rekomendacje optymalizacji w czasie rzeczywistym",
+          "Adaptacyjne strategie treści",
+          "Predykcyjne możliwości słów kluczowych"
+        ]
+      },
+      "scaling": {
+        "title": "Skalowanie z AI:",
+        "items": [
+          "Automatyczne tworzenie landing page'y",
+          "Wielojęzyczne SEO z tłumaczeniem AI",
+          "Syndykacja treści cross-platform",
+          "Automatyzowane kampanie link buildingu"
+        ]
+      }
+    }
+  },
+  "whyAiSeo": {
+    "title": "Dlaczego AI SEO to przyszłość?",
+    "speed": {
+      "title": "Szybkość Implementacji",
+      "description": "AI umożliwia tworzenie i optymalizację treści w tempie niemożliwym do osiągnięcia tradycyjnymi metodami."
+    },
+    "precision": {
+      "title": "Precyzja Targetowania",
+      "description": "Uczenie maszynowe identyfikuje dokładnie te słowa kluczowe, które przynoszą najwyższe konwersje."
+    },
+    "predictability": {
+      "title": "Przewidywalność Wyników",
+      "description": "Algorytmy AI przewidują trendy SEO i umożliwiają proaktywne działania."
+    },
+    "optimization": {
+      "title": "Optymalizacja Kosztów",
+      "description": "Automatyzacja procesów znacznie obniża koszty przy jednoczesnym zwiększeniu efektywności."
+    },
+    "adaptability": {
+      "title": "Adaptowalność",
+      "description": "AI automatycznie dostosowuje strategię SEO do zmian w algorytmach Google."
+    }
+  },
+  "process": {
+    "title": "Proces Współpracy AI SEO",
+    "phase1": {
+      "title": "Faza 1: Audyt AI i Discovery (Tydzień 1-2)",
+      "items": [
+        "Kompleksowa analiza AI obecnej pozycji SEO",
+        "Wywiad konkurencyjny z uczeniem maszynowym",
+        "Audyt techniczny SEO z automatycznym wykrywaniem problemów",
+        "Analiza luk słów kluczowych z AI"
+      ]
+    },
+    "phase2": {
+      "title": "Faza 2: Rozwój Strategii AI (Tydzień 3-4)",
+      "items": [
+        "Spersonalizowana mapa drogowa AI SEO",
+        "Strategia treści oparta na insights AI",
+        "Plan optymalizacji technicznej z rekomendacjami AI",
+        "Definicja KPI i metryk sukcesu"
+      ]
+    },
+    "phase3": {
+      "title": "Faza 3: Implementacja AI (Miesiąc 2-3)",
+      "items": [
+        "Wdrożenie narzędzi AI SEO i automatyzacji",
+        "Tworzenie treści z asystą AI",
+        "Optymalizacje techniczne z uczeniem maszynowym",
+        "Kampanie link buildingu z targetowaniem AI"
+      ]
+    },
+    "phase4": {
+      "title": "Faza 4: Monitorowanie Performance (Ciągłe)",
+      "items": [
+        "Dashboardy AI w czasie rzeczywistym i raportowanie",
+        "Ciągłe rekomendacje optymalizacji",
+        "Automatyczne alerty performance",
+        "Miesięczne przeglądy strategii z insights AI"
+      ]
+    }
+  },
+  "ourServices": {
+    "title": "Nasze Usługi AI SEO",
+    "content": {
+      "title": "Tworzenie Treści AI",
+      "items": [
+        "Automatyczne generowanie postów blogowych",
+        "Meta opisy i tagi tytułów tworzone przez AI",
+        "Automatyzacja znaczników schema",
+        "Optymalizacja pod wyszukiwanie głosowe"
+      ]
+    },
+    "keyword": {
+      "title": "Badania Słów Kluczowych AI",
+      "items": [
+        "Predykcyjna analiza słów kluczowych",
+        "Odkrywanie long-tail keywords z AI",
+        "Analiza luk słów kluczowych konkurencji",
+        "Prognozowanie trendów sezonowych"
+      ]
+    },
+    "technical": {
+      "title": "Techniczne AI SEO",
+      "items": [
+        "Automatyzacja optymalizacji szybkości strony",
+        "Linkowanie wewnętrzne z AI",
+        "Automatyczna optymalizacja obrazów",
+        "Przygotowanie do mobile-first indexing"
+      ]
+    },
+    "analytics": {
+      "title": "Analityka AI i Raportowanie",
+      "items": [
+        "Predykcyjne prognozowanie ruchu",
+        "Optymalizacja współczynnika konwersji z AI",
+        "Automatyczne raporty performance",
+        "Śledzenie ROI i modelowanie atrybucji"
+      ]
+    }
+  },
+  "whyChooseUs": {
+    "title": "Dlaczego wybrać naszą agencję AI SEO?",
+    "expertise": {
+      "title": "Ekspertyza AI i SEO",
+      "description": "Łączymy głęboką wiedzę SEO z najnowocześniejszymi technologiami AI."
+    },
+    "results": {
+      "title": "Sprawdzone Wyniki",
+      "description": "Nasze kampanie AI SEO generują średnio o 300% lepsze wyniki niż tradycyjne metody."
+    },
+    "transparency": {
+      "title": "Transparentność",
+      "description": "Otrzymujesz pełny dostęp do narzędzi AI i dashboardów w czasie rzeczywistym."
+    },
+    "team": {
+      "title": "Dedykowany Zespół AI SEO",
+      "description": "Zespół specjalistów AI i SEO pracuje wyłącznie nad Twoim projektem."
+    },
+    "innovation": {
+      "title": "Ciągła Innowacja",
+      "description": "Stale rozwijamy nasze możliwości AI i wewnętrzne narzędzia."
+    }
+  },
+  "cta": {
+    "title": "Zacznijmy współpracę AI SEO",
+    "subtitle": "Pomogliśmy firmom B2B przekształcić SEO w potężny kanał wzrostu przez AI. Zróbmy to samo dla Ciebie.",
+    "pricing": "Kompleksowe pakiety AI SEO zaczynają się od 5000$ miesięcznie.",
+    "ready": "Gotowy na rewolucję SEO?",
+    "consultation": "Zarezerwuj bezpłatną konsultację AI SEO:",
+    "benefits": [
+      "30-minutowa analiza Twojego potencjału AI SEO",
+      "Podgląd spersonalizowanego audytu AI SEO",
+      "Prognozy ROI dla Twojej branży",
+      "Niestandardowe rekomendacje strategii AI SEO"
+    ]
+  },
+  "faq": {
+    "title": "AI SEO FAQ",
+    "q1": {
+      "question": "Czy AI może zastąpić ludzkich specjalistów SEO?",
+      "answer": "AI nie zastępuje ekspertów, ale ich wzmacnia. Nasze narzędzia AI pozwalają specjalistom skupić się na strategii, podczas gdy automatyzacja obsługuje rutynowe zadania."
+    },
+    "q2": {
+      "question": "Jak szybko zobaczymy wyniki AI SEO?",
+      "answer": "Pierwsze poprawy w technicznym SEO są widoczne po 2-3 tygodniach. Wzrost ruchu organicznego zazwyczaj zaczyna się po 6-8 tygodniach implementacji."
+    },
+    "q3": {
+      "question": "Czy AI SEO jest bezpieczne dla Google?",
+      "answer": "Absolutnie. Nasze narzędzia AI i strategie są w pełni zgodne z Wytycznymi Google. Koncentrujemy się na tworzeniu wysokiej jakości treści i doświadczenia użytkownika."
+    },
+    "q4": {
+      "question": "Ile kosztuje implementacja AI SEO?",
+      "answer": "Koszty zależą od wielkości projektu i zakresu automatyzacji. Nasze pakiety zaczynają się od 5000$ miesięcznie za kompleksowe programy AI SEO."
+    },
+    "q5": {
+      "question": "Czym AI SEO różni się od tradycyjnego SEO?",
+      "answer": "AI SEO automatyzuje analizę danych, tworzenie treści i procesy optymalizacji, umożliwiając szybszą implementację i bardziej precyzyjne targetowanie niż tradycyjne metody."
+    },
+    "q6": {
+      "question": "Czy zapewniacie szkolenia z AI SEO?",
+      "answer": "Tak, oferujemy kompleksowe programy szkoleniowe dla zespołów wewnętrznych chcących wykorzystać narzędzia i strategie AI SEO."
+    }
+  },
+  "industries": {
+    "title": "Branże, które Obsługujemy",
+    "saas": {
+      "title": "SaaS i Oprogramowanie",
+      "items": [
+        "Strategie SEO zorientowane na produkt",
+        "Optymalizacja dokumentacji technicznej",
+        "Tworzenie treści dla deweloperów",
+        "SEO marketplace integracji"
+      ]
+    },
+    "healthcare": {
+      "title": "Technologie Medyczne",
+      "items": [
+        "Strategie SEO zgodne z HIPAA",
+        "Optymalizacja treści medycznych",
+        "SEO platform telemedycznych",
+        "Optymalizacja zgodności zdrowotnej"
+      ]
+    },
+    "fintech": {
+      "title": "FinTech",
+      "items": [
+        "SEO usług finansowych",
+        "Optymalizacja zgodności regulacyjnej",
+        "Implementacja sygnałów zaufania",
+        "Strategie treści zorientowane na bezpieczeństwo"
+      ]
+    },
+    "data": {
+      "title": "Dane i Analityka",
+      "items": [
+        "Techniczne SEO dla platform danych",
+        "Treści thought leadership",
+        "Optymalizacja studiów przypadków",
+        "SEO zorientowane na integracje"
+      ]
+    }
+  },
+  "tools": {
+    "title": "Narzędzia AI SEO, których Używamy",
+    "proprietary": {
+      "title": "Autorska Platforma AI",
+      "items": [
+        "Niestandardowe modele uczenia maszynowego",
+        "Silnik optymalizacji w czasie rzeczywistym",
+        "Dashboard analityki predykcyjnej",
+        "System automatycznego raportowania"
+      ]
+    },
+    "integration": {
+      "title": "Ekosystem Integracji",
+      "items": [
+        "API Google Search Console",
+        "Integracja SEMrush i Ahrefs",
+        "Systemy zarządzania treścią",
+        "Łączność platform analitycznych"
+      ]
+    },
+    "mobile": {
+      "title": "Mobile-First AI",
+      "items": [
+        "Optymalizacja wyszukiwania głosowego",
+        "Automatyzacja lokalnego SEO",
+        "Monitorowanie wydajności mobile",
+        "Optymalizacja sklepów aplikacji"
+      ]
+    }
+  },
+  "caseStudies": {
+    "title": "Historie Sukcesu",
+    "case1": {
+      "title": "Studium Przypadku 1: Firma Enterprise SaaS",
+      "challenge": "Wyzwanie: Spadający ruch organiczny i niskie współczynniki konwersji",
+      "solution": "Rozwiązanie: Wdrożenie strategii treści opartej na AI i optymalizacji technicznej",
+      "results": "Wyniki: 450% wzrost ruchu organicznego, 280% poprawa generowania leadów",
+      "timeline": "Czas trwania: 8 miesięcy"
+    },
+    "case2": {
+      "title": "Studium Przypadku 2: Startup FinTech",
+      "challenge": "Wyzwanie: Konkurowanie z ustalonymi instytucjami finansowymi",
+      "solution": "Rozwiązanie: Badania słów kluczowych oparte na AI i automatyczne tworzenie treści",
+      "results": "Wyniki: Pozycja #1 dla 50+ wartościowych słów kluczowych, 300% poprawa ROI",
+      "timeline": "Czas trwania: 6 miesięcy"
+    },
+    "case3": {
+      "title": "Studium Przypadku 3: Technologie Medyczne",
+      "challenge": "Wyzwanie: Złożone wymagania regulacyjne ograniczające opcje SEO",
+      "solution": "Rozwiązanie: Strategia AI SEO zorientowana na zgodność z automatycznym monitorowaniem",
+      "results": "Wyniki: 200% wzrost wykwalifikowanych leadów, 150% wzrost przychodów organicznych",
+      "timeline": "Czas trwania: 10 miesięcy"
+    }
+  },
+  "getStarted": {
+    "title": "Zacznij Już Dziś",
+    "subtitle": "Przekształć swoje SEO w inteligentny system wzrostu. Skontaktuj się z nami, aby rozpocząć swoją podróż AI SEO.",
+    "ready": "Gotowy na rewolucję w organicznym wzroście?",
+    "buttons": {
+      "consultation": "Zaplanuj Bezpłatną Konsultację AI SEO",
+      "caseStudies": "Zobacz Nasze Studia Przypadków AI SEO",
+      "guide": "Pobierz Przewodnik AI SEO"
+    }
+  },
+  "footer": {
+    "tagline": "Przyszłość SEO jest tutaj. Nie daj się zostawić w tyle."
+  }
+}

@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
 const AISEO = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation('aiseo');
 
   return (
     <div className="min-h-screen bg-white">
@@ -16,10 +16,10 @@ const AISEO = () => {
         {/* Hero Section */}
         <section className="text-center mb-16">
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-            AI SEO: The Search Engine Optimization Revolution
+            {t('title')}
           </h1>
           <h2 className="text-xl md:text-2xl text-gray-600 mb-8">
-            We use artificial intelligence to transform SEO into a powerful growth channel for B2B companies
+            {t('subtitle')}
           </h2>
         </section>
 

@@ -25,6 +25,7 @@ import faqPl from "./locales/pl/faq.json";
 import blogPl from "./locales/pl/blog.json";
 import xTwitterPl from "./locales/pl/xtwitter.json";
 import contactPl from "./locales/pl/contact.json";
+import aiseoPl from "./locales/pl/aiseo.json";
 
 // German translations
 import commonDe from "./locales/de/common.json";
@@ -63,7 +64,8 @@ i18n
         faq: faqPl,
         blog: blogPl,
         xtwitter: xTwitterPl,
-        contact: contactPl
+        contact: contactPl,
+        aiseo: aiseoPl
       },
       de: {
         common: commonDe,
